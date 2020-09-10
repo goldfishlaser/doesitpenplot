@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="150mm"
+   height="150mm"
+   viewBox="0 0 150 150"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   sodipodi:docname="drawing.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="310.06545"
+     inkscape:cy="297.06473"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+        <dc:description>D3D Plotter Template</dc:description>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-147)">
+    <g
+       id="g1135"
+       transform="matrix(0.26458333,0,0,0.26458333,2.4552634,288.89418)"
+       inkscape:label="Hershey Text">
+      <path
+         id="path1099"
+         transform="translate(10)"
+         style="fill:none;stroke:#000000"
+         d="m -10,9 2,-1 2,-2 3,-4 2,-3 2,-4 1,-3 v -3 L 1,-12 H 0 l -1,1 -1,2 v 2 l 1,2 2,2 3,2 2,2 1,2 V 5 L 6,7 5,8 2,9 H -2 L -5,8 -7,6 -8,4 V 2"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path1101"
+         transform="translate(24)"
+         style="fill:none;stroke:#000000"
+         d="M -3,7 -1,6 0,5 1,3 V 1 L 0,0 h -1 l -2,1 -1,2 v 3 l 1,2 2,1 H 1 L 3,8 4,7 6,4"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path1103"
+         transform="translate(36)"
+         style="fill:none;stroke:#000000"
+         d="M 3,3 2,1 0,0 h -2 l -2,1 -1,1 -1,2 v 2 l 1,2 2,1 h 2 L 1,8 2,6 4,0 3,5 V 8 L 4,9 H 5 L 7,8 8,7 10,4"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path1105"
+         transform="translate(50)"
+         style="fill:none;stroke:#000000"
+         d="m -4,4 2,-3 1,-2 V 1 L 1,4 2,6 V 8 L 0,9 M -4,8 -2,9 H 2 L 4,8 5,7 7,4"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path1107"
+         transform="translate(63)"
+         style="fill:none;stroke:#000000"
+         d="m 0,0 h -2 l -2,1 -1,1 -1,2 v 2 l 1,2 2,1 h 2 L 1,8 2,7 3,5 V 3 L 2,1 0,0 -1,1 V 3 L 0,5 2,6 H 5 L 7,5 8,4"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path1109"
+         transform="translate(79)"
+         style="fill:none;stroke:#000000"
+         d="m -8,4 2,-3 2,-1 1,1 V 2 L -4,6 -5,9 M -4,6 -3,4 -1,1 1,0 H 3 L 4,1 V 3 L 3,6 V 8 L 4,9 H 5 L 7,8 8,7 10,4"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path1111"
+         transform="translate(93)"
+         style="fill:none;stroke:#000000"
+         d="m -4,4 2,-3 1,-2 V 1 L 1,4 2,6 V 8 L 0,9 M -4,8 -2,9 H 2 L 4,8 5,7 7,4"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path1113"
+         transform="translate(108)"
+         style="fill:none;stroke:#000000"
+         d=""
+         inkscape:connector-curvature="0" />
+      <path
+         id="path1115"
+         transform="translate(127)"
+         style="fill:none;stroke:#000000"
+         d="m -11,9 2,-1 4,-4 3,-5 1,-3 1,-4 v -3 l -1,-1 h -1 l -1,1 -1,2 v 3 l 1,2 2,1 h 4 l 3,-1 1,-1 1,-2 v 6 L 7,4 6,6 4,8 1,9 H -3 L -6,8 -8,6 -9,4 V 2"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path1117"
+         transform="translate(144)"
+         style="fill:none;stroke:#000000"
+         d="m -5,4 2,-3 1,-2 V 1 H 1 L 2,2 V 4 L 1,7 V 8 L 2,9 H 3 L 5,8 6,7 8,4"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path1119"
+         transform="translate(156)"
+         style="fill:none;stroke:#000000"
+         d="M -3,7 -1,6 0,5 1,3 V 1 L 0,0 h -1 l -2,1 -1,2 v 3 l 1,2 2,1 H 1 L 3,8 4,7 6,4"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path1121"
+         transform="translate(166)"
+         style="fill:none;stroke:#000000"
+         d="M -3,7 -1,6 0,5 1,3 V 1 L 0,0 h -1 l -2,1 -1,2 v 3 l 1,2 2,1 H 1 L 3,8 4,7 6,4"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path1123"
+         transform="translate(175)"
+         style="fill:none;stroke:#000000"
+         d="m -3,4 2,-3 2,-4 m 3,-9 -6,18 v 2 l 1,1 H 1 L 3,8 4,7 6,4 m -8,-8 h 7"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path1125"
+         transform="translate(183)"
+         style="fill:none;stroke:#000000"
+         d="m 1,-5 v 1 H 2 V -5 H 1 M -2,4 0,0 -2,6 v 2 l 1,1 H 0 L 2,8 3,7 5,4"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path1127"
+         transform="translate(196)"
+         style="fill:none;stroke:#000000"
+         d="m -8,4 2,-3 2,-1 1,1 V 2 L -4,6 -5,9 M -4,6 -3,4 -1,1 1,0 H 3 L 4,1 V 3 L 3,6 V 8 L 4,9 H 5 L 7,8 8,7 10,4"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path1129"
+         transform="translate(212)"
+         style="fill:none;stroke:#000000"
+         d="M 3,3 2,1 0,0 h -2 l -2,1 -1,1 -1,2 v 2 l 1,2 2,1 h 2 L 1,8 2,7 M 4,0 2,7 -2,18 -3,20 -5,21 -6,20 V 18 L -5,15 -2,12 1,10 3,9 6,7 9,4"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path1131"
+         transform="translate(225)"
+         style="fill:none;stroke:#000000"
+         d="m -4,4 2,-3 1,-2 V 1 L 1,4 2,6 V 8 L 0,9 M -4,8 -2,9 H 2 L 4,8 5,7 7,4"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path1133"
+         transform="translate(237)"
+         style="fill:none;stroke:#000000"
+         d="M 3,-12 2,-11 0,1 M 3,-11 0,1 m 3,-13 1,1 -4,12 m -2,6 -1,1 1,1 1,-1 -1,-1"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+</svg>
