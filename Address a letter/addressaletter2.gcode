@@ -1,0 +1,1047 @@
+G00 S1; endstops
+G00 E0; no extrusion
+G01 S1; endstops
+G01 E0; no extrusion
+G21; millimeters
+G91 G0 F2100.0 Z4.000; pen park !!Zsafe
+G90; absolute
+G28 X; home
+G28 Y; home
+G28 Z; home
+G00 F2100.0 Z4.000; pen park !!Zpark
+G00 F2400.0 Y0.000; !!Ybottom
+G00 F2400.0 X0.000; !!Xleft
+G00 F2400.0 X95.001 Y23.865; move !!Xleft+95.001 Ybottom+23.865
+G00 F2100.0 Z0.000; pen down !!Zwork
+G01 F2100.0 X94.472 Y23.071; draw !!Xleft+94.472 Ybottom+23.071
+G01 F2100.0 X94.207 Y22.806; draw !!Xleft+94.207 Ybottom+22.806
+G01 F2100.0 X93.678 Y22.542; draw !!Xleft+93.678 Ybottom+22.542
+G01 F2100.0 X93.149 Y22.542; draw !!Xleft+93.149 Ybottom+22.542
+G01 F2100.0 X92.620 Y22.806; draw !!Xleft+92.620 Ybottom+22.806
+G01 F2100.0 X92.355 Y23.336; draw !!Xleft+92.355 Ybottom+23.336
+G01 F2100.0 X92.355 Y24.129; draw !!Xleft+92.355 Ybottom+24.129
+G01 F2100.0 X92.620 Y24.659; draw !!Xleft+92.620 Ybottom+24.659
+G01 F2100.0 X93.149 Y24.923; draw !!Xleft+93.149 Ybottom+24.923
+G01 F2100.0 X93.413 Y24.923; draw !!Xleft+93.413 Ybottom+24.923
+G01 F2100.0 X93.678 Y24.659; draw !!Xleft+93.678 Ybottom+24.659
+G01 F2100.0 X93.678 Y24.129; draw !!Xleft+93.678 Ybottom+24.129
+G01 F2100.0 X93.413 Y23.600; draw !!Xleft+93.413 Ybottom+23.600
+G01 F2100.0 X93.149 Y23.336; draw !!Xleft+93.149 Ybottom+23.336
+G01 F2100.0 X92.620 Y23.071; draw !!Xleft+92.620 Ybottom+23.071
+G00 F2100.0 Z4.000; pen up !!Zup
+G00 F2400.0 X92.355 Y23.865; move !!Xleft+92.355 Ybottom+23.865
+G00 F2100.0 Z0.000; pen down !!Zwork
+G01 F2100.0 X92.090 Y23.600; draw !!Xleft+92.090 Ybottom+23.600
+G01 F2100.0 X91.561 Y23.336; draw !!Xleft+91.561 Ybottom+23.336
+G01 F2100.0 X90.768 Y23.336; draw !!Xleft+90.768 Ybottom+23.336
+G01 F2100.0 X90.238 Y23.600; draw !!Xleft+90.238 Ybottom+23.600
+G01 F2100.0 X89.974 Y24.129; draw !!Xleft+89.974 Ybottom+24.129
+G01 F2100.0 X89.974 Y24.659; draw !!Xleft+89.974 Ybottom+24.659
+G01 F2100.0 X90.238 Y24.923; draw !!Xleft+90.238 Ybottom+24.923
+G01 F2100.0 X90.768 Y24.659; draw !!Xleft+90.768 Ybottom+24.659
+G01 F2100.0 X91.032 Y24.129; draw !!Xleft+91.032 Ybottom+24.129
+G01 F2100.0 X91.032 Y23.600; draw !!Xleft+91.032 Ybottom+23.600
+G01 F2100.0 X90.768 Y23.071; draw !!Xleft+90.768 Ybottom+23.071
+G01 F2100.0 X90.503 Y22.806; draw !!Xleft+90.503 Ybottom+22.806
+G01 F2100.0 X89.974 Y22.542; draw !!Xleft+89.974 Ybottom+22.542
+G01 F2100.0 X89.445 Y22.542; draw !!Xleft+89.445 Ybottom+22.542
+G01 F2100.0 X88.915 Y22.806; draw !!Xleft+88.915 Ybottom+22.806
+G01 F2100.0 X88.651 Y23.336; draw !!Xleft+88.651 Ybottom+23.336
+G01 F2100.0 X88.651 Y23.865; draw !!Xleft+88.651 Ybottom+23.865
+G01 F2100.0 X88.915 Y24.394; draw !!Xleft+88.915 Ybottom+24.394
+G01 F2100.0 X89.180 Y24.659; draw !!Xleft+89.180 Ybottom+24.659
+G01 F2100.0 X89.709 Y24.923; draw !!Xleft+89.709 Ybottom+24.923
+G01 F2100.0 X90.238 Y24.923; draw !!Xleft+90.238 Ybottom+24.923
+G00 F2100.0 Z4.000; pen up !!Zup
+G00 F2400.0 X88.122 Y24.129; move !!Xleft+88.122 Ybottom+24.129
+G00 F2100.0 Z0.000; pen down !!Zwork
+G01 F2100.0 X87.593 Y24.394; draw !!Xleft+87.593 Ybottom+24.394
+G01 F2100.0 X86.799 Y24.923; draw !!Xleft+86.799 Ybottom+24.923
+G01 F2100.0 X86.270 Y25.452; draw !!Xleft+86.270 Ybottom+25.452
+G01 F2100.0 X85.740 Y26.246; draw !!Xleft+85.740 Ybottom+26.246
+G01 F2100.0 X85.476 Y27.040; draw !!Xleft+85.476 Ybottom+27.040
+G01 F2100.0 X85.476 Y27.569; draw !!Xleft+85.476 Ybottom+27.569
+G01 F2100.0 X86.005 Y28.098; draw !!Xleft+86.005 Ybottom+28.098
+G01 F2100.0 X86.799 Y28.098; draw !!Xleft+86.799 Ybottom+28.098
+G01 F2100.0 X87.328 Y27.834; draw !!Xleft+87.328 Ybottom+27.834
+G01 F2100.0 X87.593 Y27.569; draw !!Xleft+87.593 Ybottom+27.569
+G01 F2100.0 X87.857 Y26.775; draw !!Xleft+87.857 Ybottom+26.775
+G01 F2100.0 X87.857 Y25.717; draw !!Xleft+87.857 Ybottom+25.717
+G01 F2100.0 X87.593 Y24.394; draw !!Xleft+87.593 Ybottom+24.394
+G01 F2100.0 X87.063 Y23.336; draw !!Xleft+87.063 Ybottom+23.336
+G01 F2100.0 X86.534 Y22.806; draw !!Xleft+86.534 Ybottom+22.806
+G01 F2100.0 X85.740 Y22.542; draw !!Xleft+85.740 Ybottom+22.542
+G01 F2100.0 X84.947 Y22.542; draw !!Xleft+84.947 Ybottom+22.542
+G01 F2100.0 X84.153 Y22.806; draw !!Xleft+84.153 Ybottom+22.806
+G01 F2100.0 X83.624 Y23.336; draw !!Xleft+83.624 Ybottom+23.336
+G01 F2100.0 X83.095 Y23.600; draw !!Xleft+83.095 Ybottom+23.600
+G01 F2100.0 X82.565 Y23.600; draw !!Xleft+82.565 Ybottom+23.600
+G01 F2100.0 X82.301 Y23.336; draw !!Xleft+82.301 Ybottom+23.336
+G01 F2100.0 X82.301 Y22.806; draw !!Xleft+82.301 Ybottom+22.806
+G01 F2100.0 X82.565 Y22.542; draw !!Xleft+82.565 Ybottom+22.542
+G01 F2100.0 X83.095 Y22.542; draw !!Xleft+83.095 Ybottom+22.542
+G01 F2100.0 X83.624 Y22.806; draw !!Xleft+83.624 Ybottom+22.806
+G01 F2100.0 X84.153 Y23.336; draw !!Xleft+84.153 Ybottom+23.336
+G01 F2100.0 X84.418 Y23.865; draw !!Xleft+84.418 Ybottom+23.865
+G01 F2100.0 X84.682 Y24.659; draw !!Xleft+84.682 Ybottom+24.659
+G01 F2100.0 X84.947 Y26.246; draw !!Xleft+84.947 Ybottom+26.246
+G01 F2100.0 X85.211 Y27.304; draw !!Xleft+85.211 Ybottom+27.304
+G01 F2100.0 X85.476 Y27.834; draw !!Xleft+85.476 Ybottom+27.834
+G01 F2100.0 X86.005 Y28.098; draw !!Xleft+86.005 Ybottom+28.098
+G00 F2100.0 Z4.000; pen up !!Zup
+G00 F2400.0 X78.332 Y23.865; move !!Xleft+78.332 Ybottom+23.865
+G00 F2100.0 Z0.000; pen down !!Zwork
+G01 F2100.0 X77.803 Y23.071; draw !!Xleft+77.803 Ybottom+23.071
+G01 F2100.0 X77.538 Y22.806; draw !!Xleft+77.538 Ybottom+22.806
+G01 F2100.0 X77.009 Y22.542; draw !!Xleft+77.009 Ybottom+22.542
+G01 F2100.0 X76.480 Y22.542; draw !!Xleft+76.480 Ybottom+22.542
+G01 F2100.0 X75.951 Y22.806; draw !!Xleft+75.951 Ybottom+22.806
+G01 F2100.0 X75.686 Y23.336; draw !!Xleft+75.686 Ybottom+23.336
+G01 F2100.0 X75.686 Y24.129; draw !!Xleft+75.686 Ybottom+24.129
+G01 F2100.0 X75.951 Y24.659; draw !!Xleft+75.951 Ybottom+24.659
+G01 F2100.0 X76.480 Y24.923; draw !!Xleft+76.480 Ybottom+24.923
+G01 F2100.0 X76.745 Y24.923; draw !!Xleft+76.745 Ybottom+24.923
+G01 F2100.0 X77.009 Y24.659; draw !!Xleft+77.009 Ybottom+24.659
+G01 F2100.0 X77.009 Y24.129; draw !!Xleft+77.009 Ybottom+24.129
+G01 F2100.0 X76.745 Y23.600; draw !!Xleft+76.745 Ybottom+23.600
+G01 F2100.0 X76.480 Y23.336; draw !!Xleft+76.480 Ybottom+23.336
+G01 F2100.0 X75.951 Y23.071; draw !!Xleft+75.951 Ybottom+23.071
+G00 F2100.0 Z4.000; pen up !!Zup
+G00 F2400.0 X75.686 Y23.865; move !!Xleft+75.686 Ybottom+23.865
+G00 F2100.0 Z0.000; pen down !!Zwork
+G01 F2100.0 X75.157 Y23.071; draw !!Xleft+75.157 Ybottom+23.071
+G01 F2100.0 X74.893 Y22.806; draw !!Xleft+74.893 Ybottom+22.806
+G01 F2100.0 X74.363 Y22.542; draw !!Xleft+74.363 Ybottom+22.542
+G01 F2100.0 X74.099 Y22.542; draw !!Xleft+74.099 Ybottom+22.542
+G01 F2100.0 X73.834 Y22.806; draw !!Xleft+73.834 Ybottom+22.806
+G01 F2100.0 X73.834 Y23.336; draw !!Xleft+73.834 Ybottom+23.336
+G01 F2100.0 X74.099 Y24.129; draw !!Xleft+74.099 Ybottom+24.129
+G01 F2100.0 X74.099 Y24.659; draw !!Xleft+74.099 Ybottom+24.659
+G01 F2100.0 X73.834 Y24.923; draw !!Xleft+73.834 Ybottom+24.923
+G01 F2100.0 X73.305 Y24.923; draw !!Xleft+73.305 Ybottom+24.923
+G01 F2100.0 X72.776 Y24.659; draw !!Xleft+72.776 Ybottom+24.659
+G01 F2100.0 X72.247 Y23.865; draw !!Xleft+72.247 Ybottom+23.865
+G01 F2100.0 X71.982 Y23.336; draw !!Xleft+71.982 Ybottom+23.336
+G00 F2100.0 Z4.000; pen up !!Zup
+G00 F2400.0 X71.718 Y22.542; move !!Xleft+71.718 Ybottom+22.542
+G00 F2100.0 Z0.000; pen down !!Zwork
+G01 F2100.0 X71.982 Y23.336; draw !!Xleft+71.982 Ybottom+23.336
+G01 F2100.0 X72.247 Y24.394; draw !!Xleft+72.247 Ybottom+24.394
+G01 F2100.0 X72.247 Y24.659; draw !!Xleft+72.247 Ybottom+24.659
+G01 F2100.0 X71.982 Y24.923; draw !!Xleft+71.982 Ybottom+24.923
+G01 F2100.0 X71.453 Y24.659; draw !!Xleft+71.453 Ybottom+24.659
+G01 F2100.0 X70.924 Y23.865; draw !!Xleft+70.924 Ybottom+23.865
+G01 F2100.0 X70.130 Y23.071; draw !!Xleft+70.130 Ybottom+23.071
+G01 F2100.0 X69.336 Y22.542; draw !!Xleft+69.336 Ybottom+22.542
+G01 F2100.0 X68.807 Y22.277; draw !!Xleft+68.807 Ybottom+22.277
+G01 F2100.0 X68.013 Y21.748; draw !!Xleft+68.013 Ybottom+21.748
+G01 F2100.0 X67.220 Y20.954; draw !!Xleft+67.220 Ybottom+20.954
+G01 F2100.0 X66.955 Y20.161; draw !!Xleft+66.955 Ybottom+20.161
+G01 F2100.0 X66.955 Y19.631; draw !!Xleft+66.955 Ybottom+19.631
+G01 F2100.0 X67.220 Y19.367; draw !!Xleft+67.220 Ybottom+19.367
+G01 F2100.0 X67.749 Y19.631; draw !!Xleft+67.749 Ybottom+19.631
+G01 F2100.0 X68.013 Y20.161; draw !!Xleft+68.013 Ybottom+20.161
+G01 F2100.0 X69.601 Y24.923; draw !!Xleft+69.601 Ybottom+24.923
+G00 F2100.0 Z4.000; pen up !!Zup
+G00 F2400.0 X69.336 Y24.129; move !!Xleft+69.336 Ybottom+24.129
+G00 F2100.0 Z0.000; pen down !!Zwork
+G01 F2100.0 X68.807 Y23.336; draw !!Xleft+68.807 Ybottom+23.336
+G01 F2100.0 X68.278 Y22.806; draw !!Xleft+68.278 Ybottom+22.806
+G01 F2100.0 X67.749 Y22.542; draw !!Xleft+67.749 Ybottom+22.542
+G01 F2100.0 X67.220 Y22.542; draw !!Xleft+67.220 Ybottom+22.542
+G01 F2100.0 X66.955 Y22.806; draw !!Xleft+66.955 Ybottom+22.806
+G01 F2100.0 X66.955 Y23.336; draw !!Xleft+66.955 Ybottom+23.336
+G01 F2100.0 X67.484 Y24.923; draw !!Xleft+67.484 Ybottom+24.923
+G01 F2100.0 X66.955 Y23.865; draw !!Xleft+66.955 Ybottom+23.865
+G01 F2100.0 X66.426 Y23.071; draw !!Xleft+66.426 Ybottom+23.071
+G01 F2100.0 X66.161 Y22.806; draw !!Xleft+66.161 Ybottom+22.806
+G01 F2100.0 X65.632 Y22.542; draw !!Xleft+65.632 Ybottom+22.542
+G01 F2100.0 X65.368 Y22.542; draw !!Xleft+65.368 Ybottom+22.542
+G01 F2100.0 X65.103 Y22.806; draw !!Xleft+65.103 Ybottom+22.806
+G01 F2100.0 X65.103 Y23.600; draw !!Xleft+65.103 Ybottom+23.600
+G01 F2100.0 X65.368 Y24.923; draw !!Xleft+65.368 Ybottom+24.923
+G01 F2100.0 X64.838 Y23.336; draw !!Xleft+64.838 Ybottom+23.336
+G01 F2100.0 X64.574 Y22.806; draw !!Xleft+64.574 Ybottom+22.806
+G01 F2100.0 X64.045 Y22.542; draw !!Xleft+64.045 Ybottom+22.542
+G01 F2100.0 X63.515 Y22.542; draw !!Xleft+63.515 Ybottom+22.542
+G01 F2100.0 X62.986 Y22.806; draw !!Xleft+62.986 Ybottom+22.806
+G01 F2100.0 X62.722 Y23.336; draw !!Xleft+62.722 Ybottom+23.336
+G01 F2100.0 X62.722 Y23.865; draw !!Xleft+62.722 Ybottom+23.865
+G01 F2100.0 X62.986 Y24.394; draw !!Xleft+62.986 Ybottom+24.394
+G01 F2100.0 X63.251 Y24.659; draw !!Xleft+63.251 Ybottom+24.659
+G01 F2100.0 X63.780 Y24.923; draw !!Xleft+63.780 Ybottom+24.923
+G01 F2100.0 X64.309 Y24.923; draw !!Xleft+64.309 Ybottom+24.923
+G01 F2100.0 X64.838 Y24.659; draw !!Xleft+64.838 Ybottom+24.659
+G01 F2100.0 X65.103 Y24.129; draw !!Xleft+65.103 Ybottom+24.129
+G00 F2100.0 Z4.000; pen up !!Zup
+G00 F2400.0 X62.193 Y23.336; move !!Xleft+62.193 Ybottom+23.336
+G00 F2100.0 Z0.000; pen down !!Zwork
+G01 F2100.0 X61.134 Y22.806; draw !!Xleft+61.134 Ybottom+22.806
+G01 F2100.0 X60.340 Y22.277; draw !!Xleft+60.340 Ybottom+22.277
+G01 F2100.0 X59.811 Y21.748; draw !!Xleft+59.811 Ybottom+21.748
+G01 F2100.0 X59.282 Y20.954; draw !!Xleft+59.282 Ybottom+20.954
+G01 F2100.0 X59.018 Y20.161; draw !!Xleft+59.018 Ybottom+20.161
+G01 F2100.0 X59.018 Y19.631; draw !!Xleft+59.018 Ybottom+19.631
+G01 F2100.0 X59.282 Y19.367; draw !!Xleft+59.282 Ybottom+19.367
+G01 F2100.0 X59.811 Y19.631; draw !!Xleft+59.811 Ybottom+19.631
+G01 F2100.0 X60.076 Y20.161; draw !!Xleft+60.076 Ybottom+20.161
+G01 F2100.0 X60.870 Y22.542; draw !!Xleft+60.870 Ybottom+22.542
+G01 F2100.0 X61.663 Y24.923; draw !!Xleft+61.663 Ybottom+24.923
+G01 F2100.0 X61.928 Y26.246; draw !!Xleft+61.928 Ybottom+26.246
+G01 F2100.0 X61.928 Y27.040; draw !!Xleft+61.928 Ybottom+27.040
+G01 F2100.0 X61.663 Y27.834; draw !!Xleft+61.663 Ybottom+27.834
+G01 F2100.0 X61.399 Y28.098; draw !!Xleft+61.399 Ybottom+28.098
+G01 F2100.0 X60.870 Y28.098; draw !!Xleft+60.870 Ybottom+28.098
+G01 F2100.0 X60.340 Y27.834; draw !!Xleft+60.340 Ybottom+27.834
+G01 F2100.0 X60.076 Y27.040; draw !!Xleft+60.076 Ybottom+27.040
+G01 F2100.0 X60.076 Y25.452; draw !!Xleft+60.076 Ybottom+25.452
+G01 F2100.0 X60.340 Y23.865; draw !!Xleft+60.340 Ybottom+23.865
+G01 F2100.0 X60.870 Y22.542; draw !!Xleft+60.870 Ybottom+22.542
+G01 F2100.0 X61.399 Y21.748; draw !!Xleft+61.399 Ybottom+21.748
+G00 F2100.0 Z4.000; pen up !!Zup
+G00 F2400.0 X55.501 Y17.328; move !!Xleft+55.501 Ybottom+17.328
+G00 F2100.0 Z0.000; pen down !!Zwork
+G01 F2100.0 X54.972 Y17.063; draw !!Xleft+54.972 Ybottom+17.063
+G01 F2100.0 X54.178 Y17.063; draw !!Xleft+54.178 Ybottom+17.063
+G01 F2100.0 X53.120 Y17.328; draw !!Xleft+53.120 Ybottom+17.328
+G01 F2100.0 X52.326 Y17.328; draw !!Xleft+52.326 Ybottom+17.328
+G01 F2100.0 X51.532 Y17.063; draw !!Xleft+51.532 Ybottom+17.063
+G01 F2100.0 X51.268 Y16.534; draw !!Xleft+51.268 Ybottom+16.534
+G01 F2100.0 X51.532 Y16.005; draw !!Xleft+51.532 Ybottom+16.005
+G01 F2100.0 X52.061 Y15.740; draw !!Xleft+52.061 Ybottom+15.740
+G01 F2100.0 X52.590 Y15.740; draw !!Xleft+52.590 Ybottom+15.740
+G00 F2100.0 Z4.000; pen up !!Zup
+G00 F2400.0 X54.178 Y17.063; move !!Xleft+54.178 Ybottom+17.063
+G00 F2100.0 Z0.000; pen down !!Zwork
+G01 F2100.0 X53.649 Y15.211; draw !!Xleft+53.649 Ybottom+15.211
+G01 F2100.0 X53.120 Y13.624; draw !!Xleft+53.120 Ybottom+13.624
+G01 F2100.0 X52.590 Y12.565; draw !!Xleft+52.590 Ybottom+12.565
+G01 F2100.0 X52.061 Y12.036; draw !!Xleft+52.061 Ybottom+12.036
+G01 F2100.0 X51.532 Y11.771; draw !!Xleft+51.532 Ybottom+11.771
+G01 F2100.0 X51.003 Y11.771; draw !!Xleft+51.003 Ybottom+11.771
+G01 F2100.0 X50.474 Y12.036; draw !!Xleft+50.474 Ybottom+12.036
+G01 F2100.0 X50.209 Y12.565; draw !!Xleft+50.209 Ybottom+12.565
+G01 F2100.0 X50.209 Y13.094; draw !!Xleft+50.209 Ybottom+13.094
+G01 F2100.0 X50.474 Y13.359; draw !!Xleft+50.474 Ybottom+13.359
+G01 F2100.0 X51.003 Y13.359; draw !!Xleft+51.003 Ybottom+13.359
+G01 F2100.0 X51.532 Y13.094; draw !!Xleft+51.532 Ybottom+13.094
+G00 F2100.0 Z4.000; pen up !!Zup
+G00 F2400.0 X52.326 Y14.682; move !!Xleft+52.326 Ybottom+14.682
+G00 F2100.0 Z0.000; pen down !!Zwork
+G01 F2100.0 X54.707 Y14.682; draw !!Xleft+54.707 Ybottom+14.682
+G00 F2100.0 Z4.000; pen up !!Zup
+G00 F2400.0 X56.824 Y14.153; move !!Xleft+56.824 Ybottom+14.153
+G00 F2100.0 Z0.000; pen down !!Zwork
+G01 F2100.0 X56.295 Y14.153; draw !!Xleft+56.295 Ybottom+14.153
+G01 F2100.0 X55.765 Y13.888; draw !!Xleft+55.765 Ybottom+13.888
+G01 F2100.0 X55.501 Y13.624; draw !!Xleft+55.501 Ybottom+13.624
+G01 F2100.0 X55.236 Y13.094; draw !!Xleft+55.236 Ybottom+13.094
+G01 F2100.0 X55.236 Y12.565; draw !!Xleft+55.236 Ybottom+12.565
+G01 F2100.0 X55.501 Y12.036; draw !!Xleft+55.501 Ybottom+12.036
+G01 F2100.0 X56.030 Y11.771; draw !!Xleft+56.030 Ybottom+11.771
+G01 F2100.0 X56.559 Y11.771; draw !!Xleft+56.559 Ybottom+11.771
+G01 F2100.0 X57.088 Y12.036; draw !!Xleft+57.088 Ybottom+12.036
+G01 F2100.0 X57.353 Y12.301; draw !!Xleft+57.353 Ybottom+12.301
+G01 F2100.0 X57.618 Y12.830; draw !!Xleft+57.618 Ybottom+12.830
+G01 F2100.0 X57.618 Y13.359; draw !!Xleft+57.618 Ybottom+13.359
+G01 F2100.0 X57.353 Y13.888; draw !!Xleft+57.353 Ybottom+13.888
+G01 F2100.0 X56.824 Y14.153; draw !!Xleft+56.824 Ybottom+14.153
+G01 F2100.0 X56.559 Y13.888; draw !!Xleft+56.559 Ybottom+13.888
+G01 F2100.0 X56.559 Y13.359; draw !!Xleft+56.559 Ybottom+13.359
+G01 F2100.0 X56.824 Y12.830; draw !!Xleft+56.824 Ybottom+12.830
+G01 F2100.0 X57.353 Y12.565; draw !!Xleft+57.353 Ybottom+12.565
+G01 F2100.0 X58.147 Y12.565; draw !!Xleft+58.147 Ybottom+12.565
+G01 F2100.0 X58.676 Y12.830; draw !!Xleft+58.676 Ybottom+12.830
+G01 F2100.0 X58.940 Y13.094; draw !!Xleft+58.940 Ybottom+13.094
+G01 F2100.0 X59.470 Y13.888; draw !!Xleft+59.470 Ybottom+13.888
+G01 F2100.0 X59.734 Y14.417; draw !!Xleft+59.734 Ybottom+14.417
+G01 F2100.0 X59.734 Y13.888; draw !!Xleft+59.734 Ybottom+13.888
+G01 F2100.0 X60.528 Y13.888; draw !!Xleft+60.528 Ybottom+13.888
+G01 F2100.0 X60.793 Y13.624; draw !!Xleft+60.793 Ybottom+13.624
+G01 F2100.0 X60.793 Y13.094; draw !!Xleft+60.793 Ybottom+13.094
+G01 F2100.0 X60.528 Y12.301; draw !!Xleft+60.528 Ybottom+12.301
+G01 F2100.0 X60.528 Y12.036; draw !!Xleft+60.528 Ybottom+12.036
+G01 F2100.0 X60.793 Y11.771; draw !!Xleft+60.793 Ybottom+11.771
+G01 F2100.0 X61.057 Y11.771; draw !!Xleft+61.057 Ybottom+11.771
+G01 F2100.0 X61.586 Y12.036; draw !!Xleft+61.586 Ybottom+12.036
+G01 F2100.0 X61.851 Y12.301; draw !!Xleft+61.851 Ybottom+12.301
+G01 F2100.0 X62.380 Y13.094; draw !!Xleft+62.380 Ybottom+13.094
+G00 F2100.0 Z4.000; pen up !!Zup
+G00 F2400.0 X64.761 Y13.359; move !!Xleft+64.761 Ybottom+13.359
+G00 F2100.0 Z0.000; pen down !!Zwork
+G01 F2100.0 X64.497 Y13.888; draw !!Xleft+64.497 Ybottom+13.888
+G01 F2100.0 X63.968 Y14.153; draw !!Xleft+63.968 Ybottom+14.153
+G01 F2100.0 X63.438 Y14.153; draw !!Xleft+63.438 Ybottom+14.153
+G01 F2100.0 X62.909 Y13.888; draw !!Xleft+62.909 Ybottom+13.888
+G01 F2100.0 X62.645 Y13.624; draw !!Xleft+62.645 Ybottom+13.624
+G01 F2100.0 X62.380 Y13.094; draw !!Xleft+62.380 Ybottom+13.094
+G01 F2100.0 X62.380 Y12.565; draw !!Xleft+62.380 Ybottom+12.565
+G01 F2100.0 X62.645 Y12.036; draw !!Xleft+62.645 Ybottom+12.036
+G01 F2100.0 X63.174 Y11.771; draw !!Xleft+63.174 Ybottom+11.771
+G01 F2100.0 X63.703 Y11.771; draw !!Xleft+63.703 Ybottom+11.771
+G01 F2100.0 X64.232 Y12.036; draw !!Xleft+64.232 Ybottom+12.036
+G01 F2100.0 X64.497 Y12.565; draw !!Xleft+64.497 Ybottom+12.565
+G01 F2100.0 X66.084 Y17.328; draw !!Xleft+66.084 Ybottom+17.328
+G00 F2100.0 Z4.000; pen up !!Zup
+G00 F2400.0 X65.026 Y14.153; move !!Xleft+65.026 Ybottom+14.153
+G00 F2100.0 Z0.000; pen down !!Zwork
+G01 F2100.0 X64.761 Y12.830; draw !!Xleft+64.761 Ybottom+12.830
+G01 F2100.0 X64.761 Y12.036; draw !!Xleft+64.761 Ybottom+12.036
+G01 F2100.0 X65.026 Y11.771; draw !!Xleft+65.026 Ybottom+11.771
+G01 F2100.0 X65.290 Y11.771; draw !!Xleft+65.290 Ybottom+11.771
+G01 F2100.0 X65.820 Y12.036; draw !!Xleft+65.820 Ybottom+12.036
+G01 F2100.0 X66.084 Y12.301; draw !!Xleft+66.084 Ybottom+12.301
+G01 F2100.0 X66.613 Y13.094; draw !!Xleft+66.613 Ybottom+13.094
+G01 F2100.0 X67.143 Y13.888; draw !!Xleft+67.143 Ybottom+13.888
+G01 F2100.0 X67.936 Y15.211; draw !!Xleft+67.936 Ybottom+15.211
+G01 F2100.0 X68.201 Y15.740; draw !!Xleft+68.201 Ybottom+15.740
+G01 F2100.0 X68.465 Y16.534; draw !!Xleft+68.465 Ybottom+16.534
+G01 F2100.0 X68.465 Y17.063; draw !!Xleft+68.465 Ybottom+17.063
+G01 F2100.0 X68.201 Y17.328; draw !!Xleft+68.201 Ybottom+17.328
+G01 F2100.0 X67.672 Y17.063; draw !!Xleft+67.672 Ybottom+17.063
+G01 F2100.0 X67.407 Y16.534; draw !!Xleft+67.407 Ybottom+16.534
+G01 F2100.0 X67.143 Y15.476; draw !!Xleft+67.143 Ybottom+15.476
+G01 F2100.0 X66.878 Y13.888; draw !!Xleft+66.878 Ybottom+13.888
+G01 F2100.0 X66.613 Y11.771; draw !!Xleft+66.613 Ybottom+11.771
+G01 F2100.0 X66.878 Y12.565; draw !!Xleft+66.878 Ybottom+12.565
+G01 F2100.0 X67.143 Y13.094; draw !!Xleft+67.143 Ybottom+13.094
+G01 F2100.0 X67.672 Y13.888; draw !!Xleft+67.672 Ybottom+13.888
+G01 F2100.0 X68.201 Y14.153; draw !!Xleft+68.201 Ybottom+14.153
+G01 F2100.0 X68.730 Y14.153; draw !!Xleft+68.730 Ybottom+14.153
+G01 F2100.0 X68.995 Y13.888; draw !!Xleft+68.995 Ybottom+13.888
+G01 F2100.0 X68.995 Y13.359; draw !!Xleft+68.995 Ybottom+13.359
+G01 F2100.0 X68.730 Y12.565; draw !!Xleft+68.730 Ybottom+12.565
+G01 F2100.0 X68.730 Y12.036; draw !!Xleft+68.730 Ybottom+12.036
+G01 F2100.0 X68.995 Y11.771; draw !!Xleft+68.995 Ybottom+11.771
+G01 F2100.0 X69.259 Y11.771; draw !!Xleft+69.259 Ybottom+11.771
+G01 F2100.0 X69.788 Y12.036; draw !!Xleft+69.788 Ybottom+12.036
+G01 F2100.0 X70.053 Y12.301; draw !!Xleft+70.053 Ybottom+12.301
+G01 F2100.0 X70.582 Y13.094; draw !!Xleft+70.582 Ybottom+13.094
+G00 F2100.0 Z4.000; pen up !!Zup
+G00 F2400.0 X72.963 Y13.359; move !!Xleft+72.963 Ybottom+13.359
+G00 F2100.0 Z0.000; pen down !!Zwork
+G01 F2100.0 X72.699 Y13.888; draw !!Xleft+72.699 Ybottom+13.888
+G01 F2100.0 X72.170 Y14.153; draw !!Xleft+72.170 Ybottom+14.153
+G01 F2100.0 X71.640 Y14.153; draw !!Xleft+71.640 Ybottom+14.153
+G01 F2100.0 X71.111 Y13.888; draw !!Xleft+71.111 Ybottom+13.888
+G01 F2100.0 X70.847 Y13.624; draw !!Xleft+70.847 Ybottom+13.624
+G01 F2100.0 X70.582 Y13.094; draw !!Xleft+70.582 Ybottom+13.094
+G01 F2100.0 X70.582 Y12.565; draw !!Xleft+70.582 Ybottom+12.565
+G01 F2100.0 X70.847 Y12.036; draw !!Xleft+70.847 Ybottom+12.036
+G01 F2100.0 X71.376 Y11.771; draw !!Xleft+71.376 Ybottom+11.771
+G01 F2100.0 X71.905 Y11.771; draw !!Xleft+71.905 Ybottom+11.771
+G01 F2100.0 X72.434 Y12.036; draw !!Xleft+72.434 Ybottom+12.036
+G01 F2100.0 X72.699 Y12.565; draw !!Xleft+72.699 Ybottom+12.565
+G01 F2100.0 X73.228 Y14.153; draw !!Xleft+73.228 Ybottom+14.153
+G01 F2100.0 X72.963 Y12.830; draw !!Xleft+72.963 Ybottom+12.830
+G01 F2100.0 X72.963 Y12.036; draw !!Xleft+72.963 Ybottom+12.036
+G01 F2100.0 X73.228 Y11.771; draw !!Xleft+73.228 Ybottom+11.771
+G01 F2100.0 X73.493 Y11.771; draw !!Xleft+73.493 Ybottom+11.771
+G01 F2100.0 X74.022 Y12.036; draw !!Xleft+74.022 Ybottom+12.036
+G01 F2100.0 X74.286 Y12.301; draw !!Xleft+74.286 Ybottom+12.301
+G01 F2100.0 X74.815 Y13.094; draw !!Xleft+74.815 Ybottom+13.094
+G01 F2100.0 X75.345 Y13.888; draw !!Xleft+75.345 Ybottom+13.888
+G01 F2100.0 X75.874 Y14.153; draw !!Xleft+75.874 Ybottom+14.153
+G01 F2100.0 X76.138 Y13.888; draw !!Xleft+76.138 Ybottom+13.888
+G01 F2100.0 X76.138 Y13.624; draw !!Xleft+76.138 Ybottom+13.624
+G01 F2100.0 X75.874 Y12.565; draw !!Xleft+75.874 Ybottom+12.565
+G01 F2100.0 X75.609 Y11.771; draw !!Xleft+75.609 Ybottom+11.771
+G00 F2100.0 Z4.000; pen up !!Zup
+G00 F2400.0 X75.874 Y12.565; move !!Xleft+75.874 Ybottom+12.565
+G00 F2100.0 Z0.000; pen down !!Zwork
+G01 F2100.0 X76.138 Y13.094; draw !!Xleft+76.138 Ybottom+13.094
+G01 F2100.0 X76.668 Y13.888; draw !!Xleft+76.668 Ybottom+13.888
+G01 F2100.0 X77.197 Y14.153; draw !!Xleft+77.197 Ybottom+14.153
+G01 F2100.0 X77.726 Y14.153; draw !!Xleft+77.726 Ybottom+14.153
+G01 F2100.0 X77.990 Y13.888; draw !!Xleft+77.990 Ybottom+13.888
+G01 F2100.0 X77.990 Y13.624; draw !!Xleft+77.990 Ybottom+13.624
+G01 F2100.0 X77.726 Y12.565; draw !!Xleft+77.726 Ybottom+12.565
+G01 F2100.0 X77.461 Y11.771; draw !!Xleft+77.461 Ybottom+11.771
+G00 F2100.0 Z4.000; pen up !!Zup
+G00 F2400.0 X77.726 Y12.565; move !!Xleft+77.726 Ybottom+12.565
+G00 F2100.0 Z0.000; pen down !!Zwork
+G01 F2100.0 X77.990 Y13.094; draw !!Xleft+77.990 Ybottom+13.094
+G01 F2100.0 X78.520 Y13.888; draw !!Xleft+78.520 Ybottom+13.888
+G01 F2100.0 X79.049 Y14.153; draw !!Xleft+79.049 Ybottom+14.153
+G01 F2100.0 X79.578 Y14.153; draw !!Xleft+79.578 Ybottom+14.153
+G01 F2100.0 X79.843 Y13.888; draw !!Xleft+79.843 Ybottom+13.888
+G01 F2100.0 X79.843 Y13.359; draw !!Xleft+79.843 Ybottom+13.359
+G01 F2100.0 X79.578 Y12.565; draw !!Xleft+79.578 Ybottom+12.565
+G01 F2100.0 X79.578 Y12.036; draw !!Xleft+79.578 Ybottom+12.036
+G01 F2100.0 X79.843 Y11.771; draw !!Xleft+79.843 Ybottom+11.771
+G01 F2100.0 X80.107 Y11.771; draw !!Xleft+80.107 Ybottom+11.771
+G01 F2100.0 X80.636 Y12.036; draw !!Xleft+80.636 Ybottom+12.036
+G01 F2100.0 X80.901 Y12.301; draw !!Xleft+80.901 Ybottom+12.301
+G01 F2100.0 X81.430 Y13.094; draw !!Xleft+81.430 Ybottom+13.094
+G00 F2100.0 Z4.000; pen up !!Zup
+G00 F2400.0 X85.663 Y11.771; move !!Xleft+85.663 Ybottom+11.771
+G00 F2100.0 Z0.000; pen down !!Zwork
+G01 F2100.0 X86.193 Y12.036; draw !!Xleft+86.193 Ybottom+12.036
+G01 F2100.0 X86.722 Y12.565; draw !!Xleft+86.722 Ybottom+12.565
+G01 F2100.0 X87.515 Y13.624; draw !!Xleft+87.515 Ybottom+13.624
+G01 F2100.0 X88.045 Y14.417; draw !!Xleft+88.045 Ybottom+14.417
+G01 F2100.0 X88.574 Y15.476; draw !!Xleft+88.574 Ybottom+15.476
+G01 F2100.0 X88.838 Y16.269; draw !!Xleft+88.838 Ybottom+16.269
+G01 F2100.0 X88.838 Y17.063; draw !!Xleft+88.838 Ybottom+17.063
+G01 F2100.0 X88.574 Y17.328; draw !!Xleft+88.574 Ybottom+17.328
+G01 F2100.0 X88.309 Y17.328; draw !!Xleft+88.309 Ybottom+17.328
+G01 F2100.0 X88.045 Y17.063; draw !!Xleft+88.045 Ybottom+17.063
+G01 F2100.0 X87.780 Y16.534; draw !!Xleft+87.780 Ybottom+16.534
+G01 F2100.0 X87.780 Y16.005; draw !!Xleft+87.780 Ybottom+16.005
+G01 F2100.0 X88.045 Y15.476; draw !!Xleft+88.045 Ybottom+15.476
+G01 F2100.0 X88.574 Y14.946; draw !!Xleft+88.574 Ybottom+14.946
+G01 F2100.0 X89.368 Y14.417; draw !!Xleft+89.368 Ybottom+14.417
+G01 F2100.0 X89.897 Y13.888; draw !!Xleft+89.897 Ybottom+13.888
+G01 F2100.0 X90.161 Y13.359; draw !!Xleft+90.161 Ybottom+13.359
+G01 F2100.0 X90.161 Y12.830; draw !!Xleft+90.161 Ybottom+12.830
+G01 F2100.0 X89.897 Y12.301; draw !!Xleft+89.897 Ybottom+12.301
+G01 F2100.0 X89.632 Y12.036; draw !!Xleft+89.632 Ybottom+12.036
+G01 F2100.0 X88.838 Y11.771; draw !!Xleft+88.838 Ybottom+11.771
+G01 F2100.0 X87.780 Y11.771; draw !!Xleft+87.780 Ybottom+11.771
+G01 F2100.0 X86.986 Y12.036; draw !!Xleft+86.986 Ybottom+12.036
+G01 F2100.0 X86.457 Y12.565; draw !!Xleft+86.457 Ybottom+12.565
+G01 F2100.0 X86.193 Y13.094; draw !!Xleft+86.193 Ybottom+13.094
+G01 F2100.0 X86.193 Y13.624; draw !!Xleft+86.193 Ybottom+13.624
+G00 F2100.0 Z4.000; pen up !!Zup
+G00 F2400.0 X91.220 Y15.211; move !!Xleft+91.220 Ybottom+15.211
+G00 F2100.0 Z0.000; pen down !!Zwork
+G01 F2100.0 X93.072 Y15.211; draw !!Xleft+93.072 Ybottom+15.211
+G00 F2100.0 Z4.000; pen up !!Zup
+G00 F2400.0 X90.955 Y13.094; move !!Xleft+90.955 Ybottom+13.094
+G00 F2100.0 Z0.000; pen down !!Zwork
+G01 F2100.0 X91.484 Y13.888; draw !!Xleft+91.484 Ybottom+13.888
+G01 F2100.0 X92.013 Y14.946; draw !!Xleft+92.013 Ybottom+14.946
+G00 F2100.0 Z4.000; pen up !!Zup
+G00 F2400.0 X92.807 Y17.328; move !!Xleft+92.807 Ybottom+17.328
+G00 F2100.0 Z0.000; pen down !!Zwork
+G01 F2100.0 X91.220 Y12.565; draw !!Xleft+91.220 Ybottom+12.565
+G01 F2100.0 X91.220 Y12.036; draw !!Xleft+91.220 Ybottom+12.036
+G01 F2100.0 X91.484 Y11.771; draw !!Xleft+91.484 Ybottom+11.771
+G01 F2100.0 X92.013 Y11.771; draw !!Xleft+92.013 Ybottom+11.771
+G01 F2100.0 X92.543 Y12.036; draw !!Xleft+92.543 Ybottom+12.036
+G01 F2100.0 X92.807 Y12.301; draw !!Xleft+92.807 Ybottom+12.301
+G01 F2100.0 X93.336 Y13.094; draw !!Xleft+93.336 Ybottom+13.094
+G00 F2100.0 Z4.000; pen up !!Zup
+G00 F2400.0 X94.659 Y12.301; move !!Xleft+94.659 Ybottom+12.301
+G00 F2100.0 Z0.000; pen down !!Zwork
+G01 F2100.0 X94.395 Y12.036; draw !!Xleft+94.395 Ybottom+12.036
+G01 F2100.0 X94.659 Y11.771; draw !!Xleft+94.659 Ybottom+11.771
+G01 F2100.0 X94.924 Y12.036; draw !!Xleft+94.924 Ybottom+12.036
+G01 F2100.0 X94.659 Y12.301; draw !!Xleft+94.659 Ybottom+12.301
+G00 F2100.0 Z4.000; pen up !!Zup
+G00 F2400.0 X91.546 Y6.085; move !!Xleft+91.546 Ybottom+6.085
+G00 F2100.0 Z0.000; pen down !!Zwork
+G01 F2100.0 X92.075 Y6.350; draw !!Xleft+92.075 Ybottom+6.350
+G01 F2100.0 X92.604 Y6.350; draw !!Xleft+92.604 Ybottom+6.350
+G01 F2100.0 X93.927 Y5.821; draw !!Xleft+93.927 Ybottom+5.821
+G01 F2100.0 X94.456 Y5.821; draw !!Xleft+94.456 Ybottom+5.821
+G01 F2100.0 X94.721 Y6.085; draw !!Xleft+94.721 Ybottom+6.085
+G01 F2100.0 X94.985 Y6.615; draw !!Xleft+94.985 Ybottom+6.615
+G01 F2100.0 X94.721 Y5.821; draw !!Xleft+94.721 Ybottom+5.821
+G01 F2100.0 X94.192 Y5.027; draw !!Xleft+94.192 Ybottom+5.027
+G01 F2100.0 X92.869 Y3.440; draw !!Xleft+92.869 Ybottom+3.440
+G01 F2100.0 X92.340 Y2.646; draw !!Xleft+92.340 Ybottom+2.646
+G01 F2100.0 X92.075 Y2.117; draw !!Xleft+92.075 Ybottom+2.117
+G01 F2100.0 X91.810 Y1.058; draw !!Xleft+91.810 Ybottom+1.058
+G00 F2100.0 Z4.000; pen up !!Zup
+G00 F2400.0 X91.546 Y1.058; move !!Xleft+91.546 Ybottom+1.058
+G00 F2100.0 Z0.000; pen down !!Zwork
+G01 F2100.0 X91.810 Y2.117; draw !!Xleft+91.810 Ybottom+2.117
+G01 F2100.0 X92.075 Y2.646; draw !!Xleft+92.075 Ybottom+2.646
+G01 F2100.0 X92.604 Y3.440; draw !!Xleft+92.604 Ybottom+3.440
+G01 F2100.0 X94.192 Y5.027; draw !!Xleft+94.192 Ybottom+5.027
+G00 F2100.0 Z4.000; pen up !!Zup
+G00 F2400.0 X93.927 Y5.821; move !!Xleft+93.927 Ybottom+5.821
+G00 F2100.0 Z0.000; pen down !!Zwork
+G01 F2100.0 X92.604 Y6.615; draw !!Xleft+92.604 Ybottom+6.615
+G01 F2100.0 X92.075 Y6.615; draw !!Xleft+92.075 Ybottom+6.615
+G01 F2100.0 X91.281 Y5.821; draw !!Xleft+91.281 Ybottom+5.821
+G00 F2100.0 Z4.000; pen up !!Zup
+G00 F2400.0 X91.546 Y6.615; move !!Xleft+91.546 Ybottom+6.615
+G00 F2100.0 Z0.000; pen down !!Zwork
+G01 F2100.0 X91.017 Y5.027; draw !!Xleft+91.017 Ybottom+5.027
+G00 F2100.0 Z4.000; pen up !!Zup
+G00 F2400.0 X88.106 Y6.615; move !!Xleft+88.106 Ybottom+6.615
+G00 F2100.0 Z0.000; pen down !!Zwork
+G01 F2100.0 X88.635 Y6.085; draw !!Xleft+88.635 Ybottom+6.085
+G01 F2100.0 X88.900 Y5.292; draw !!Xleft+88.900 Ybottom+5.292
+G01 F2100.0 X88.900 Y4.498; draw !!Xleft+88.900 Ybottom+4.498
+G01 F2100.0 X88.635 Y3.440; draw !!Xleft+88.635 Ybottom+3.440
+G01 F2100.0 X88.371 Y2.646; draw !!Xleft+88.371 Ybottom+2.646
+G01 F2100.0 X87.842 Y1.852; draw !!Xleft+87.842 Ybottom+1.852
+G01 F2100.0 X87.312 Y1.323; draw !!Xleft+87.312 Ybottom+1.323
+G01 F2100.0 X86.783 Y1.058; draw !!Xleft+86.783 Ybottom+1.058
+G00 F2100.0 Z4.000; pen up !!Zup
+G00 F2400.0 X86.254 Y1.058; move !!Xleft+86.254 Ybottom+1.058
+G00 F2100.0 Z0.000; pen down !!Zwork
+G01 F2100.0 X85.725 Y1.587; draw !!Xleft+85.725 Ybottom+1.587
+G01 F2100.0 X85.460 Y2.381; draw !!Xleft+85.460 Ybottom+2.381
+G01 F2100.0 X85.460 Y3.175; draw !!Xleft+85.460 Ybottom+3.175
+G01 F2100.0 X85.725 Y4.233; draw !!Xleft+85.725 Ybottom+4.233
+G01 F2100.0 X85.990 Y5.027; draw !!Xleft+85.990 Ybottom+5.027
+G01 F2100.0 X86.519 Y5.821; draw !!Xleft+86.519 Ybottom+5.821
+G01 F2100.0 X87.048 Y6.350; draw !!Xleft+87.048 Ybottom+6.350
+G01 F2100.0 X87.577 Y6.615; draw !!Xleft+87.577 Ybottom+6.615
+G01 F2100.0 X88.106 Y6.615; draw !!Xleft+88.106 Ybottom+6.615
+G01 F2100.0 X88.635 Y6.350; draw !!Xleft+88.635 Ybottom+6.350
+G01 F2100.0 X88.900 Y6.085; draw !!Xleft+88.900 Ybottom+6.085
+G01 F2100.0 X89.165 Y5.292; draw !!Xleft+89.165 Ybottom+5.292
+G01 F2100.0 X89.165 Y4.498; draw !!Xleft+89.165 Ybottom+4.498
+G01 F2100.0 X88.900 Y3.440; draw !!Xleft+88.900 Ybottom+3.440
+G01 F2100.0 X88.635 Y2.646; draw !!Xleft+88.635 Ybottom+2.646
+G01 F2100.0 X88.106 Y1.852; draw !!Xleft+88.106 Ybottom+1.852
+G01 F2100.0 X87.577 Y1.323; draw !!Xleft+87.577 Ybottom+1.323
+G01 F2100.0 X86.783 Y1.058; draw !!Xleft+86.783 Ybottom+1.058
+G01 F2100.0 X86.254 Y1.058; draw !!Xleft+86.254 Ybottom+1.058
+G01 F2100.0 X85.725 Y1.323; draw !!Xleft+85.725 Ybottom+1.323
+G01 F2100.0 X85.460 Y1.587; draw !!Xleft+85.460 Ybottom+1.587
+G01 F2100.0 X85.196 Y2.381; draw !!Xleft+85.196 Ybottom+2.381
+G01 F2100.0 X85.196 Y3.175; draw !!Xleft+85.196 Ybottom+3.175
+G01 F2100.0 X85.460 Y4.233; draw !!Xleft+85.460 Ybottom+4.233
+G01 F2100.0 X85.725 Y5.027; draw !!Xleft+85.725 Ybottom+5.027
+G01 F2100.0 X86.254 Y5.821; draw !!Xleft+86.254 Ybottom+5.821
+G01 F2100.0 X86.783 Y6.350; draw !!Xleft+86.783 Ybottom+6.350
+G01 F2100.0 X87.577 Y6.615; draw !!Xleft+87.577 Ybottom+6.615
+G00 F2100.0 Z4.000; pen up !!Zup
+G00 F2400.0 X82.550 Y6.615; move !!Xleft+82.550 Ybottom+6.615
+G00 F2100.0 Z0.000; pen down !!Zwork
+G01 F2100.0 X83.079 Y6.350; draw !!Xleft+83.079 Ybottom+6.350
+G01 F2100.0 X83.344 Y5.821; draw !!Xleft+83.344 Ybottom+5.821
+G01 F2100.0 X83.344 Y5.292; draw !!Xleft+83.344 Ybottom+5.292
+G01 F2100.0 X83.079 Y4.762; draw !!Xleft+83.079 Ybottom+4.762
+G01 F2100.0 X82.550 Y4.233; draw !!Xleft+82.550 Ybottom+4.233
+G00 F2100.0 Z4.000; pen up !!Zup
+G00 F2400.0 X81.227 Y3.969; move !!Xleft+81.227 Ybottom+3.969
+G00 F2100.0 Z0.000; pen down !!Zwork
+G01 F2100.0 X81.756 Y3.969; draw !!Xleft+81.756 Ybottom+3.969
+G01 F2100.0 X82.550 Y3.704; draw !!Xleft+82.550 Ybottom+3.704
+G01 F2100.0 X82.815 Y3.440; draw !!Xleft+82.815 Ybottom+3.440
+G01 F2100.0 X83.079 Y2.910; draw !!Xleft+83.079 Ybottom+2.910
+G01 F2100.0 X83.079 Y2.117; draw !!Xleft+83.079 Ybottom+2.117
+G01 F2100.0 X82.815 Y1.587; draw !!Xleft+82.815 Ybottom+1.587
+G01 F2100.0 X82.550 Y1.323; draw !!Xleft+82.550 Ybottom+1.323
+G01 F2100.0 X81.756 Y1.058; draw !!Xleft+81.756 Ybottom+1.058
+G01 F2100.0 X80.698 Y1.058; draw !!Xleft+80.698 Ybottom+1.058
+G01 F2100.0 X79.904 Y1.323; draw !!Xleft+79.904 Ybottom+1.323
+G01 F2100.0 X79.640 Y1.587; draw !!Xleft+79.640 Ybottom+1.587
+G01 F2100.0 X79.375 Y2.117; draw !!Xleft+79.375 Ybottom+2.117
+G01 F2100.0 X79.375 Y2.381; draw !!Xleft+79.375 Ybottom+2.381
+G01 F2100.0 X79.640 Y2.646; draw !!Xleft+79.640 Ybottom+2.646
+G01 F2100.0 X79.904 Y2.381; draw !!Xleft+79.904 Ybottom+2.381
+G01 F2100.0 X79.640 Y2.117; draw !!Xleft+79.640 Ybottom+2.117
+G00 F2100.0 Z4.000; pen up !!Zup
+G00 F2400.0 X81.756 Y1.058; move !!Xleft+81.756 Ybottom+1.058
+G00 F2100.0 Z0.000; pen down !!Zwork
+G01 F2100.0 X82.285 Y1.323; draw !!Xleft+82.285 Ybottom+1.323
+G01 F2100.0 X82.550 Y1.587; draw !!Xleft+82.550 Ybottom+1.587
+G01 F2100.0 X82.815 Y2.117; draw !!Xleft+82.815 Ybottom+2.117
+G01 F2100.0 X82.815 Y2.910; draw !!Xleft+82.815 Ybottom+2.910
+G01 F2100.0 X82.550 Y3.440; draw !!Xleft+82.550 Ybottom+3.440
+G01 F2100.0 X82.285 Y3.704; draw !!Xleft+82.285 Ybottom+3.704
+G01 F2100.0 X81.756 Y3.969; draw !!Xleft+81.756 Ybottom+3.969
+G01 F2100.0 X82.550 Y4.233; draw !!Xleft+82.550 Ybottom+4.233
+G01 F2100.0 X83.344 Y4.762; draw !!Xleft+83.344 Ybottom+4.762
+G01 F2100.0 X83.608 Y5.292; draw !!Xleft+83.608 Ybottom+5.292
+G01 F2100.0 X83.608 Y5.821; draw !!Xleft+83.608 Ybottom+5.821
+G01 F2100.0 X83.344 Y6.350; draw !!Xleft+83.344 Ybottom+6.350
+G01 F2100.0 X82.550 Y6.615; draw !!Xleft+82.550 Ybottom+6.615
+G01 F2100.0 X81.756 Y6.615; draw !!Xleft+81.756 Ybottom+6.615
+G01 F2100.0 X80.962 Y6.350; draw !!Xleft+80.962 Ybottom+6.350
+G01 F2100.0 X80.698 Y6.085; draw !!Xleft+80.698 Ybottom+6.085
+G01 F2100.0 X80.433 Y5.556; draw !!Xleft+80.433 Ybottom+5.556
+G01 F2100.0 X80.433 Y5.292; draw !!Xleft+80.433 Ybottom+5.292
+G01 F2100.0 X80.698 Y5.027; draw !!Xleft+80.698 Ybottom+5.027
+G01 F2100.0 X80.962 Y5.292; draw !!Xleft+80.962 Ybottom+5.292
+G01 F2100.0 X80.698 Y5.556; draw !!Xleft+80.698 Ybottom+5.556
+G00 F2100.0 Z4.000; pen up !!Zup
+G00 F2400.0 X77.787 Y5.821; move !!Xleft+77.787 Ybottom+5.821
+G00 F2100.0 Z0.000; pen down !!Zwork
+G01 F2100.0 X77.523 Y5.556; draw !!Xleft+77.523 Ybottom+5.556
+G01 F2100.0 X77.787 Y5.292; draw !!Xleft+77.787 Ybottom+5.292
+G01 F2100.0 X78.052 Y5.556; draw !!Xleft+78.052 Ybottom+5.556
+G01 F2100.0 X78.052 Y5.821; draw !!Xleft+78.052 Ybottom+5.821
+G01 F2100.0 X77.787 Y6.350; draw !!Xleft+77.787 Ybottom+6.350
+G01 F2100.0 X77.258 Y6.615; draw !!Xleft+77.258 Ybottom+6.615
+G01 F2100.0 X76.465 Y6.615; draw !!Xleft+76.465 Ybottom+6.615
+G01 F2100.0 X75.671 Y6.350; draw !!Xleft+75.671 Ybottom+6.350
+G01 F2100.0 X75.142 Y5.821; draw !!Xleft+75.142 Ybottom+5.821
+G01 F2100.0 X74.612 Y5.027; draw !!Xleft+74.612 Ybottom+5.027
+G01 F2100.0 X74.348 Y4.233; draw !!Xleft+74.348 Ybottom+4.233
+G01 F2100.0 X74.083 Y3.175; draw !!Xleft+74.083 Ybottom+3.175
+G01 F2100.0 X74.083 Y2.117; draw !!Xleft+74.083 Ybottom+2.117
+G01 F2100.0 X74.348 Y1.587; draw !!Xleft+74.348 Ybottom+1.587
+G01 F2100.0 X74.612 Y1.323; draw !!Xleft+74.612 Ybottom+1.323
+G01 F2100.0 X75.142 Y1.058; draw !!Xleft+75.142 Ybottom+1.058
+G01 F2100.0 X75.935 Y1.058; draw !!Xleft+75.935 Ybottom+1.058
+G01 F2100.0 X76.729 Y1.323; draw !!Xleft+76.729 Ybottom+1.323
+G01 F2100.0 X77.258 Y1.852; draw !!Xleft+77.258 Ybottom+1.852
+G01 F2100.0 X77.523 Y2.381; draw !!Xleft+77.523 Ybottom+2.381
+G01 F2100.0 X77.523 Y3.175; draw !!Xleft+77.523 Ybottom+3.175
+G01 F2100.0 X77.258 Y3.704; draw !!Xleft+77.258 Ybottom+3.704
+G01 F2100.0 X76.994 Y3.969; draw !!Xleft+76.994 Ybottom+3.969
+G01 F2100.0 X76.465 Y4.233; draw !!Xleft+76.465 Ybottom+4.233
+G01 F2100.0 X75.671 Y4.233; draw !!Xleft+75.671 Ybottom+4.233
+G01 F2100.0 X75.142 Y3.969; draw !!Xleft+75.142 Ybottom+3.969
+G01 F2100.0 X74.612 Y3.440; draw !!Xleft+74.612 Ybottom+3.440
+G01 F2100.0 X74.348 Y2.910; draw !!Xleft+74.348 Ybottom+2.910
+G00 F2100.0 Z4.000; pen up !!Zup
+G00 F2400.0 X76.994 Y3.969; move !!Xleft+76.994 Ybottom+3.969
+G00 F2100.0 Z0.000; pen down !!Zwork
+G01 F2100.0 X77.258 Y3.440; draw !!Xleft+77.258 Ybottom+3.440
+G01 F2100.0 X77.258 Y2.381; draw !!Xleft+77.258 Ybottom+2.381
+G01 F2100.0 X76.994 Y1.852; draw !!Xleft+76.994 Ybottom+1.852
+G01 F2100.0 X76.465 Y1.323; draw !!Xleft+76.465 Ybottom+1.323
+G01 F2100.0 X75.935 Y1.058; draw !!Xleft+75.935 Ybottom+1.058
+G00 F2100.0 Z4.000; pen up !!Zup
+G00 F2400.0 X74.612 Y1.323; move !!Xleft+74.612 Ybottom+1.323
+G00 F2100.0 Z0.000; pen down !!Zwork
+G01 F2100.0 X74.348 Y1.852; draw !!Xleft+74.348 Ybottom+1.852
+G01 F2100.0 X74.348 Y3.175; draw !!Xleft+74.348 Ybottom+3.175
+G01 F2100.0 X74.612 Y4.233; draw !!Xleft+74.612 Ybottom+4.233
+G01 F2100.0 X74.877 Y5.027; draw !!Xleft+74.877 Ybottom+5.027
+G01 F2100.0 X75.406 Y5.821; draw !!Xleft+75.406 Ybottom+5.821
+G01 F2100.0 X75.935 Y6.350; draw !!Xleft+75.935 Ybottom+6.350
+G01 F2100.0 X76.465 Y6.615; draw !!Xleft+76.465 Ybottom+6.615
+G00 F2100.0 Z4.000; pen up !!Zup
+G00 F2400.0 X71.967 Y6.350; move !!Xleft+71.967 Ybottom+6.350
+G00 F2100.0 Z0.000; pen down !!Zwork
+G01 F2100.0 X70.379 Y1.058; draw !!Xleft+70.379 Ybottom+1.058
+G00 F2100.0 Z4.000; pen up !!Zup
+G00 F2400.0 X70.644 Y1.058; move !!Xleft+70.644 Ybottom+1.058
+G00 F2100.0 Z0.000; pen down !!Zwork
+G01 F2100.0 X72.231 Y6.615; draw !!Xleft+72.231 Ybottom+6.615
+G01 F2100.0 X68.262 Y2.646; draw !!Xleft+68.262 Ybottom+2.646
+G01 F2100.0 X72.496 Y2.646; draw !!Xleft+72.496 Ybottom+2.646
+G00 F2100.0 Z4.000; pen up !!Zup
+G00 F2400.0 X63.500 Y2.381; move !!Xleft+63.500 Ybottom+2.381
+G00 F2100.0 Z0.000; pen down !!Zwork
+G01 F2100.0 X62.971 Y1.587; draw !!Xleft+62.971 Ybottom+1.587
+G01 F2100.0 X62.706 Y1.323; draw !!Xleft+62.706 Ybottom+1.323
+G01 F2100.0 X62.177 Y1.058; draw !!Xleft+62.177 Ybottom+1.058
+G01 F2100.0 X61.912 Y1.058; draw !!Xleft+61.912 Ybottom+1.058
+G01 F2100.0 X61.648 Y1.323; draw !!Xleft+61.648 Ybottom+1.323
+G01 F2100.0 X61.648 Y2.117; draw !!Xleft+61.648 Ybottom+2.117
+G01 F2100.0 X62.177 Y3.969; draw !!Xleft+62.177 Ybottom+3.969
+G01 F2100.0 X62.442 Y5.292; draw !!Xleft+62.442 Ybottom+5.292
+G01 F2100.0 X62.442 Y5.821; draw !!Xleft+62.442 Ybottom+5.821
+G01 F2100.0 X62.177 Y6.350; draw !!Xleft+62.177 Ybottom+6.350
+G01 F2100.0 X61.648 Y6.615; draw !!Xleft+61.648 Ybottom+6.615
+G01 F2100.0 X61.119 Y6.615; draw !!Xleft+61.119 Ybottom+6.615
+G01 F2100.0 X60.590 Y6.350; draw !!Xleft+60.590 Ybottom+6.350
+G01 F2100.0 X60.325 Y6.085; draw !!Xleft+60.325 Ybottom+6.085
+G01 F2100.0 X59.796 Y5.027; draw !!Xleft+59.796 Ybottom+5.027
+G01 F2100.0 X59.002 Y2.910; draw !!Xleft+59.002 Ybottom+2.910
+G00 F2100.0 Z4.000; pen up !!Zup
+G00 F2400.0 X58.473 Y4.762; move !!Xleft+58.473 Ybottom+4.762
+G00 F2100.0 Z0.000; pen down !!Zwork
+G01 F2100.0 X57.944 Y5.027; draw !!Xleft+57.944 Ybottom+5.027
+G01 F2100.0 X57.679 Y5.556; draw !!Xleft+57.679 Ybottom+5.556
+G01 F2100.0 X57.679 Y5.821; draw !!Xleft+57.679 Ybottom+5.821
+G01 F2100.0 X57.944 Y6.350; draw !!Xleft+57.944 Ybottom+6.350
+G01 F2100.0 X58.473 Y6.615; draw !!Xleft+58.473 Ybottom+6.615
+G01 F2100.0 X58.737 Y6.615; draw !!Xleft+58.737 Ybottom+6.615
+G01 F2100.0 X59.267 Y6.350; draw !!Xleft+59.267 Ybottom+6.350
+G01 F2100.0 X59.531 Y5.821; draw !!Xleft+59.531 Ybottom+5.821
+G01 F2100.0 X59.531 Y5.292; draw !!Xleft+59.531 Ybottom+5.292
+G01 F2100.0 X59.267 Y3.969; draw !!Xleft+59.267 Ybottom+3.969
+G01 F2100.0 X59.002 Y2.910; draw !!Xleft+59.002 Ybottom+2.910
+G01 F2100.0 X58.473 Y1.058; draw !!Xleft+58.473 Ybottom+1.058
+G00 F2100.0 Z4.000; pen up !!Zup
+G00 F2400.0 X56.356 Y2.381; move !!Xleft+56.356 Ybottom+2.381
+G00 F2100.0 Z0.000; pen down !!Zwork
+G01 F2100.0 X55.827 Y2.910; draw !!Xleft+55.827 Ybottom+2.910
+G01 F2100.0 X55.298 Y3.704; draw !!Xleft+55.298 Ybottom+3.704
+G01 F2100.0 X55.033 Y4.233; draw !!Xleft+55.033 Ybottom+4.233
+G01 F2100.0 X54.769 Y5.027; draw !!Xleft+54.769 Ybottom+5.027
+G01 F2100.0 X54.769 Y5.821; draw !!Xleft+54.769 Ybottom+5.821
+G01 F2100.0 X55.033 Y6.350; draw !!Xleft+55.033 Ybottom+6.350
+G01 F2100.0 X55.298 Y6.615; draw !!Xleft+55.298 Ybottom+6.615
+G01 F2100.0 X55.827 Y6.615; draw !!Xleft+55.827 Ybottom+6.615
+G01 F2100.0 X56.092 Y6.350; draw !!Xleft+56.092 Ybottom+6.350
+G01 F2100.0 X56.356 Y5.821; draw !!Xleft+56.356 Ybottom+5.821
+G01 F2100.0 X56.356 Y5.027; draw !!Xleft+56.356 Ybottom+5.027
+G01 F2100.0 X56.092 Y3.704; draw !!Xleft+56.092 Ybottom+3.704
+G01 F2100.0 X55.562 Y2.381; draw !!Xleft+55.562 Ybottom+2.381
+G01 F2100.0 X55.298 Y1.852; draw !!Xleft+55.298 Ybottom+1.852
+G01 F2100.0 X54.769 Y1.323; draw !!Xleft+54.769 Ybottom+1.323
+G01 F2100.0 X54.240 Y1.058; draw !!Xleft+54.240 Ybottom+1.058
+G01 F2100.0 X53.710 Y1.058; draw !!Xleft+53.710 Ybottom+1.058
+G01 F2100.0 X53.181 Y1.323; draw !!Xleft+53.181 Ybottom+1.323
+G01 F2100.0 X52.917 Y1.852; draw !!Xleft+52.917 Ybottom+1.852
+G01 F2100.0 X52.917 Y2.381; draw !!Xleft+52.917 Ybottom+2.381
+G01 F2100.0 X53.181 Y2.646; draw !!Xleft+53.181 Ybottom+2.646
+G01 F2100.0 X53.710 Y2.646; draw !!Xleft+53.710 Ybottom+2.646
+G01 F2100.0 X54.240 Y2.381; draw !!Xleft+54.240 Ybottom+2.381
+G00 F2100.0 Z4.000; pen up !!Zup
+G00 F2400.0 X45.773 Y0.000; move !!Xleft+45.773 Ybottom+0.000
+G00 F2100.0 Z0.000; pen down !!Zwork
+G01 F2100.0 X46.302 Y0.529; draw !!Xleft+46.302 Ybottom+0.529
+G01 F2100.0 X46.567 Y1.058; draw !!Xleft+46.567 Ybottom+1.058
+G01 F2100.0 X46.567 Y1.323; draw !!Xleft+46.567 Ybottom+1.323
+G01 F2100.0 X46.302 Y1.587; draw !!Xleft+46.302 Ybottom+1.587
+G01 F2100.0 X46.037 Y1.323; draw !!Xleft+46.037 Ybottom+1.323
+G01 F2100.0 X46.302 Y1.058; draw !!Xleft+46.302 Ybottom+1.058
+G00 F2100.0 Z4.000; pen up !!Zup
+G00 F2400.0 X45.508 Y2.381; move !!Xleft+45.508 Ybottom+2.381
+G00 F2100.0 Z0.000; pen down !!Zwork
+G01 F2100.0 X44.979 Y1.587; draw !!Xleft+44.979 Ybottom+1.587
+G01 F2100.0 X44.715 Y1.323; draw !!Xleft+44.715 Ybottom+1.323
+G01 F2100.0 X44.185 Y1.058; draw !!Xleft+44.185 Ybottom+1.058
+G01 F2100.0 X43.656 Y1.058; draw !!Xleft+43.656 Ybottom+1.058
+G01 F2100.0 X43.392 Y1.323; draw !!Xleft+43.392 Ybottom+1.323
+G01 F2100.0 X43.392 Y1.852; draw !!Xleft+43.392 Ybottom+1.852
+G01 F2100.0 X44.979 Y6.615; draw !!Xleft+44.979 Ybottom+6.615
+G00 F2100.0 Z4.000; pen up !!Zup
+G00 F2400.0 X40.949 Y12.830; move !!Xleft+40.949 Ybottom+12.830
+G00 F2100.0 Z0.000; pen down !!Zwork
+G01 F2100.0 X41.213 Y13.094; draw !!Xleft+41.213 Ybottom+13.094
+G01 F2100.0 X40.949 Y13.359; draw !!Xleft+40.949 Ybottom+13.359
+G01 F2100.0 X40.684 Y13.094; draw !!Xleft+40.684 Ybottom+13.094
+G01 F2100.0 X40.684 Y12.830; draw !!Xleft+40.684 Ybottom+12.830
+G01 F2100.0 X40.949 Y12.301; draw !!Xleft+40.949 Ybottom+12.301
+G01 F2100.0 X41.213 Y12.036; draw !!Xleft+41.213 Ybottom+12.036
+G01 F2100.0 X42.007 Y11.771; draw !!Xleft+42.007 Ybottom+11.771
+G01 F2100.0 X43.065 Y11.771; draw !!Xleft+43.065 Ybottom+11.771
+G01 F2100.0 X43.859 Y12.036; draw !!Xleft+43.859 Ybottom+12.036
+G01 F2100.0 X44.124 Y12.301; draw !!Xleft+44.124 Ybottom+12.301
+G01 F2100.0 X44.388 Y12.830; draw !!Xleft+44.388 Ybottom+12.830
+G01 F2100.0 X44.388 Y13.624; draw !!Xleft+44.388 Ybottom+13.624
+G01 F2100.0 X44.124 Y14.153; draw !!Xleft+44.124 Ybottom+14.153
+G01 F2100.0 X43.859 Y14.417; draw !!Xleft+43.859 Ybottom+14.417
+G01 F2100.0 X43.065 Y14.682; draw !!Xleft+43.065 Ybottom+14.682
+G01 F2100.0 X42.536 Y14.682; draw !!Xleft+42.536 Ybottom+14.682
+G00 F2100.0 Z4.000; pen up !!Zup
+G00 F2400.0 X43.859 Y17.328; move !!Xleft+43.859 Ybottom+17.328
+G00 F2100.0 Z0.000; pen down !!Zwork
+G01 F2100.0 X44.388 Y17.063; draw !!Xleft+44.388 Ybottom+17.063
+G01 F2100.0 X44.653 Y16.534; draw !!Xleft+44.653 Ybottom+16.534
+G01 F2100.0 X44.653 Y16.005; draw !!Xleft+44.653 Ybottom+16.005
+G01 F2100.0 X44.388 Y15.476; draw !!Xleft+44.388 Ybottom+15.476
+G01 F2100.0 X43.859 Y14.946; draw !!Xleft+43.859 Ybottom+14.946
+G00 F2100.0 Z4.000; pen up !!Zup
+G00 F2400.0 X43.065 Y11.771; move !!Xleft+43.065 Ybottom+11.771
+G00 F2100.0 Z0.000; pen down !!Zwork
+G01 F2100.0 X43.595 Y12.036; draw !!Xleft+43.595 Ybottom+12.036
+G01 F2100.0 X43.859 Y12.301; draw !!Xleft+43.859 Ybottom+12.301
+G01 F2100.0 X44.124 Y12.830; draw !!Xleft+44.124 Ybottom+12.830
+G01 F2100.0 X44.124 Y13.624; draw !!Xleft+44.124 Ybottom+13.624
+G01 F2100.0 X43.859 Y14.153; draw !!Xleft+43.859 Ybottom+14.153
+G01 F2100.0 X43.595 Y14.417; draw !!Xleft+43.595 Ybottom+14.417
+G01 F2100.0 X43.065 Y14.682; draw !!Xleft+43.065 Ybottom+14.682
+G01 F2100.0 X43.859 Y14.946; draw !!Xleft+43.859 Ybottom+14.946
+G01 F2100.0 X44.653 Y15.476; draw !!Xleft+44.653 Ybottom+15.476
+G01 F2100.0 X44.918 Y16.005; draw !!Xleft+44.918 Ybottom+16.005
+G01 F2100.0 X44.918 Y16.534; draw !!Xleft+44.918 Ybottom+16.534
+G01 F2100.0 X44.653 Y17.063; draw !!Xleft+44.653 Ybottom+17.063
+G01 F2100.0 X43.859 Y17.328; draw !!Xleft+43.859 Ybottom+17.328
+G01 F2100.0 X43.065 Y17.328; draw !!Xleft+43.065 Ybottom+17.328
+G01 F2100.0 X42.272 Y17.063; draw !!Xleft+42.272 Ybottom+17.063
+G01 F2100.0 X42.007 Y16.799; draw !!Xleft+42.007 Ybottom+16.799
+G01 F2100.0 X41.743 Y16.269; draw !!Xleft+41.743 Ybottom+16.269
+G01 F2100.0 X41.743 Y16.005; draw !!Xleft+41.743 Ybottom+16.005
+G01 F2100.0 X42.007 Y15.740; draw !!Xleft+42.007 Ybottom+15.740
+G01 F2100.0 X42.272 Y16.005; draw !!Xleft+42.272 Ybottom+16.005
+G01 F2100.0 X42.007 Y16.269; draw !!Xleft+42.007 Ybottom+16.269
+G00 F2100.0 Z4.000; pen up !!Zup
+G00 F2400.0 X38.303 Y17.328; move !!Xleft+38.303 Ybottom+17.328
+G00 F2100.0 Z0.000; pen down !!Zwork
+G01 F2100.0 X38.832 Y16.799; draw !!Xleft+38.832 Ybottom+16.799
+G01 F2100.0 X39.097 Y16.005; draw !!Xleft+39.097 Ybottom+16.005
+G01 F2100.0 X39.097 Y15.211; draw !!Xleft+39.097 Ybottom+15.211
+G01 F2100.0 X38.832 Y14.153; draw !!Xleft+38.832 Ybottom+14.153
+G01 F2100.0 X38.568 Y13.359; draw !!Xleft+38.568 Ybottom+13.359
+G01 F2100.0 X38.038 Y12.565; draw !!Xleft+38.038 Ybottom+12.565
+G01 F2100.0 X37.509 Y12.036; draw !!Xleft+37.509 Ybottom+12.036
+G01 F2100.0 X36.980 Y11.771; draw !!Xleft+36.980 Ybottom+11.771
+G00 F2100.0 Z4.000; pen up !!Zup
+G00 F2400.0 X36.451 Y11.771; move !!Xleft+36.451 Ybottom+11.771
+G00 F2100.0 Z0.000; pen down !!Zwork
+G01 F2100.0 X35.922 Y12.301; draw !!Xleft+35.922 Ybottom+12.301
+G01 F2100.0 X35.657 Y13.094; draw !!Xleft+35.657 Ybottom+13.094
+G01 F2100.0 X35.657 Y13.888; draw !!Xleft+35.657 Ybottom+13.888
+G01 F2100.0 X35.922 Y14.946; draw !!Xleft+35.922 Ybottom+14.946
+G01 F2100.0 X36.186 Y15.740; draw !!Xleft+36.186 Ybottom+15.740
+G01 F2100.0 X36.715 Y16.534; draw !!Xleft+36.715 Ybottom+16.534
+G01 F2100.0 X37.245 Y17.063; draw !!Xleft+37.245 Ybottom+17.063
+G01 F2100.0 X37.774 Y17.328; draw !!Xleft+37.774 Ybottom+17.328
+G01 F2100.0 X38.303 Y17.328; draw !!Xleft+38.303 Ybottom+17.328
+G01 F2100.0 X38.832 Y17.063; draw !!Xleft+38.832 Ybottom+17.063
+G01 F2100.0 X39.097 Y16.799; draw !!Xleft+39.097 Ybottom+16.799
+G01 F2100.0 X39.361 Y16.005; draw !!Xleft+39.361 Ybottom+16.005
+G01 F2100.0 X39.361 Y15.211; draw !!Xleft+39.361 Ybottom+15.211
+G01 F2100.0 X39.097 Y14.153; draw !!Xleft+39.097 Ybottom+14.153
+G01 F2100.0 X38.832 Y13.359; draw !!Xleft+38.832 Ybottom+13.359
+G01 F2100.0 X38.303 Y12.565; draw !!Xleft+38.303 Ybottom+12.565
+G01 F2100.0 X37.774 Y12.036; draw !!Xleft+37.774 Ybottom+12.036
+G01 F2100.0 X36.980 Y11.771; draw !!Xleft+36.980 Ybottom+11.771
+G01 F2100.0 X36.451 Y11.771; draw !!Xleft+36.451 Ybottom+11.771
+G01 F2100.0 X35.922 Y12.036; draw !!Xleft+35.922 Ybottom+12.036
+G01 F2100.0 X35.657 Y12.301; draw !!Xleft+35.657 Ybottom+12.301
+G01 F2100.0 X35.393 Y13.094; draw !!Xleft+35.393 Ybottom+13.094
+G01 F2100.0 X35.393 Y13.888; draw !!Xleft+35.393 Ybottom+13.888
+G01 F2100.0 X35.657 Y14.946; draw !!Xleft+35.657 Ybottom+14.946
+G01 F2100.0 X35.922 Y15.740; draw !!Xleft+35.922 Ybottom+15.740
+G01 F2100.0 X36.451 Y16.534; draw !!Xleft+36.451 Ybottom+16.534
+G01 F2100.0 X36.980 Y17.063; draw !!Xleft+36.980 Ybottom+17.063
+G01 F2100.0 X37.774 Y17.328; draw !!Xleft+37.774 Ybottom+17.328
+G00 F2100.0 Z4.000; pen up !!Zup
+G00 F2400.0 X33.540 Y15.476; move !!Xleft+33.540 Ybottom+15.476
+G00 F2100.0 Z0.000; pen down !!Zwork
+G01 F2100.0 X33.276 Y14.946; draw !!Xleft+33.276 Ybottom+14.946
+G01 F2100.0 X32.747 Y14.417; draw !!Xleft+32.747 Ybottom+14.417
+G01 F2100.0 X32.218 Y14.153; draw !!Xleft+32.218 Ybottom+14.153
+G01 F2100.0 X31.424 Y14.153; draw !!Xleft+31.424 Ybottom+14.153
+G01 F2100.0 X30.895 Y14.417; draw !!Xleft+30.895 Ybottom+14.417
+G01 F2100.0 X30.630 Y14.682; draw !!Xleft+30.630 Ybottom+14.682
+G01 F2100.0 X30.365 Y15.211; draw !!Xleft+30.365 Ybottom+15.211
+G01 F2100.0 X30.365 Y16.005; draw !!Xleft+30.365 Ybottom+16.005
+G01 F2100.0 X30.630 Y16.534; draw !!Xleft+30.630 Ybottom+16.534
+G01 F2100.0 X31.159 Y17.063; draw !!Xleft+31.159 Ybottom+17.063
+G01 F2100.0 X31.953 Y17.328; draw !!Xleft+31.953 Ybottom+17.328
+G01 F2100.0 X32.747 Y17.328; draw !!Xleft+32.747 Ybottom+17.328
+G01 F2100.0 X33.276 Y17.063; draw !!Xleft+33.276 Ybottom+17.063
+G01 F2100.0 X33.540 Y16.799; draw !!Xleft+33.540 Ybottom+16.799
+G01 F2100.0 X33.805 Y16.269; draw !!Xleft+33.805 Ybottom+16.269
+G01 F2100.0 X33.805 Y15.211; draw !!Xleft+33.805 Ybottom+15.211
+G01 F2100.0 X33.540 Y14.153; draw !!Xleft+33.540 Ybottom+14.153
+G01 F2100.0 X33.276 Y13.359; draw !!Xleft+33.276 Ybottom+13.359
+G01 F2100.0 X32.747 Y12.565; draw !!Xleft+32.747 Ybottom+12.565
+G01 F2100.0 X32.218 Y12.036; draw !!Xleft+32.218 Ybottom+12.036
+G01 F2100.0 X31.424 Y11.771; draw !!Xleft+31.424 Ybottom+11.771
+G01 F2100.0 X30.630 Y11.771; draw !!Xleft+30.630 Ybottom+11.771
+G01 F2100.0 X30.101 Y12.036; draw !!Xleft+30.101 Ybottom+12.036
+G01 F2100.0 X29.836 Y12.565; draw !!Xleft+29.836 Ybottom+12.565
+G01 F2100.0 X29.836 Y12.830; draw !!Xleft+29.836 Ybottom+12.830
+G01 F2100.0 X30.101 Y13.094; draw !!Xleft+30.101 Ybottom+13.094
+G01 F2100.0 X30.365 Y12.830; draw !!Xleft+30.365 Ybottom+12.830
+G01 F2100.0 X30.101 Y12.565; draw !!Xleft+30.101 Ybottom+12.565
+G00 F2100.0 Z4.000; pen up !!Zup
+G00 F2400.0 X30.895 Y14.417; move !!Xleft+30.895 Ybottom+14.417
+G00 F2100.0 Z0.000; pen down !!Zwork
+G01 F2100.0 X30.630 Y14.946; draw !!Xleft+30.630 Ybottom+14.946
+G01 F2100.0 X30.630 Y16.005; draw !!Xleft+30.630 Ybottom+16.005
+G01 F2100.0 X30.895 Y16.534; draw !!Xleft+30.895 Ybottom+16.534
+G01 F2100.0 X31.424 Y17.063; draw !!Xleft+31.424 Ybottom+17.063
+G01 F2100.0 X31.953 Y17.328; draw !!Xleft+31.953 Ybottom+17.328
+G00 F2100.0 Z4.000; pen up !!Zup
+G00 F2400.0 X33.276 Y17.063; move !!Xleft+33.276 Ybottom+17.063
+G00 F2100.0 Z0.000; pen down !!Zwork
+G01 F2100.0 X33.540 Y16.534; draw !!Xleft+33.540 Ybottom+16.534
+G01 F2100.0 X33.540 Y15.211; draw !!Xleft+33.540 Ybottom+15.211
+G01 F2100.0 X33.276 Y14.153; draw !!Xleft+33.276 Ybottom+14.153
+G01 F2100.0 X33.011 Y13.359; draw !!Xleft+33.011 Ybottom+13.359
+G01 F2100.0 X32.482 Y12.565; draw !!Xleft+32.482 Ybottom+12.565
+G01 F2100.0 X31.953 Y12.036; draw !!Xleft+31.953 Ybottom+12.036
+G01 F2100.0 X31.424 Y11.771; draw !!Xleft+31.424 Ybottom+11.771
+G00 F2100.0 Z4.000; pen up !!Zup
+G00 F2400.0 X37.306 Y4.762; move !!Xleft+37.306 Ybottom+4.762
+G00 F2100.0 Z0.000; pen down !!Zwork
+G01 F2100.0 X37.306 Y4.498; draw !!Xleft+37.306 Ybottom+4.498
+G01 F2100.0 X37.571 Y4.498; draw !!Xleft+37.571 Ybottom+4.498
+G01 F2100.0 X37.571 Y4.762; draw !!Xleft+37.571 Ybottom+4.762
+G01 F2100.0 X37.306 Y4.762; draw !!Xleft+37.306 Ybottom+4.762
+G00 F2100.0 Z4.000; pen up !!Zup
+G00 F2400.0 X43.392 Y4.498; move !!Xleft+43.392 Ybottom+4.498
+G00 F2100.0 Z0.000; pen down !!Zwork
+G01 F2100.0 X45.244 Y4.498; draw !!Xleft+45.244 Ybottom+4.498
+G00 F2100.0 Z4.000; pen up !!Zup
+G00 F2400.0 X44.185 Y4.233; move !!Xleft+44.185 Ybottom+4.233
+G00 F2100.0 Z0.000; pen down !!Zwork
+G01 F2100.0 X43.656 Y3.175; draw !!Xleft+43.656 Ybottom+3.175
+G01 F2100.0 X43.127 Y2.381; draw !!Xleft+43.127 Ybottom+2.381
+G01 F2100.0 X42.598 Y1.587; draw !!Xleft+42.598 Ybottom+1.587
+G01 F2100.0 X42.333 Y1.323; draw !!Xleft+42.333 Ybottom+1.323
+G01 F2100.0 X41.804 Y1.058; draw !!Xleft+41.804 Ybottom+1.058
+G01 F2100.0 X41.540 Y1.058; draw !!Xleft+41.540 Ybottom+1.058
+G01 F2100.0 X41.275 Y1.323; draw !!Xleft+41.275 Ybottom+1.323
+G01 F2100.0 X41.275 Y1.852; draw !!Xleft+41.275 Ybottom+1.852
+G01 F2100.0 X41.540 Y2.646; draw !!Xleft+41.540 Ybottom+2.646
+G01 F2100.0 X41.540 Y3.175; draw !!Xleft+41.540 Ybottom+3.175
+G01 F2100.0 X41.275 Y3.440; draw !!Xleft+41.275 Ybottom+3.440
+G01 F2100.0 X40.746 Y3.440; draw !!Xleft+40.746 Ybottom+3.440
+G01 F2100.0 X40.217 Y3.175; draw !!Xleft+40.217 Ybottom+3.175
+G01 F2100.0 X39.687 Y2.381; draw !!Xleft+39.687 Ybottom+2.381
+G01 F2100.0 X39.423 Y1.852; draw !!Xleft+39.423 Ybottom+1.852
+G00 F2100.0 Z4.000; pen up !!Zup
+G00 F2400.0 X39.158 Y1.058; move !!Xleft+39.158 Ybottom+1.058
+G00 F2100.0 Z0.000; pen down !!Zwork
+G01 F2100.0 X39.423 Y1.852; draw !!Xleft+39.423 Ybottom+1.852
+G01 F2100.0 X39.687 Y2.910; draw !!Xleft+39.687 Ybottom+2.910
+G01 F2100.0 X39.687 Y3.175; draw !!Xleft+39.687 Ybottom+3.175
+G01 F2100.0 X39.423 Y3.440; draw !!Xleft+39.423 Ybottom+3.440
+G01 F2100.0 X38.894 Y3.175; draw !!Xleft+38.894 Ybottom+3.175
+G01 F2100.0 X38.365 Y2.381; draw !!Xleft+38.365 Ybottom+2.381
+G01 F2100.0 X37.835 Y1.587; draw !!Xleft+37.835 Ybottom+1.587
+G01 F2100.0 X37.571 Y1.323; draw !!Xleft+37.571 Ybottom+1.323
+G01 F2100.0 X37.042 Y1.058; draw !!Xleft+37.042 Ybottom+1.058
+G01 F2100.0 X36.777 Y1.058; draw !!Xleft+36.777 Ybottom+1.058
+G01 F2100.0 X36.512 Y1.323; draw !!Xleft+36.512 Ybottom+1.323
+G01 F2100.0 X36.512 Y1.852; draw !!Xleft+36.512 Ybottom+1.852
+G01 F2100.0 X37.042 Y3.440; draw !!Xleft+37.042 Ybottom+3.440
+G01 F2100.0 X36.512 Y2.381; draw !!Xleft+36.512 Ybottom+2.381
+G01 F2100.0 X36.248 Y2.117; draw !!Xleft+36.248 Ybottom+2.117
+G01 F2100.0 X35.719 Y1.852; draw !!Xleft+35.719 Ybottom+1.852
+G01 F2100.0 X34.925 Y1.852; draw !!Xleft+34.925 Ybottom+1.852
+G01 F2100.0 X34.396 Y2.117; draw !!Xleft+34.396 Ybottom+2.117
+G01 F2100.0 X34.131 Y2.646; draw !!Xleft+34.131 Ybottom+2.646
+G01 F2100.0 X34.131 Y3.175; draw !!Xleft+34.131 Ybottom+3.175
+G01 F2100.0 X34.396 Y3.440; draw !!Xleft+34.396 Ybottom+3.440
+G01 F2100.0 X34.925 Y3.175; draw !!Xleft+34.925 Ybottom+3.175
+G01 F2100.0 X35.190 Y2.646; draw !!Xleft+35.190 Ybottom+2.646
+G01 F2100.0 X35.190 Y2.117; draw !!Xleft+35.190 Ybottom+2.117
+G01 F2100.0 X34.925 Y1.587; draw !!Xleft+34.925 Ybottom+1.587
+G01 F2100.0 X34.660 Y1.323; draw !!Xleft+34.660 Ybottom+1.323
+G01 F2100.0 X34.131 Y1.058; draw !!Xleft+34.131 Ybottom+1.058
+G01 F2100.0 X33.602 Y1.058; draw !!Xleft+33.602 Ybottom+1.058
+G01 F2100.0 X33.073 Y1.323; draw !!Xleft+33.073 Ybottom+1.323
+G01 F2100.0 X32.808 Y1.852; draw !!Xleft+32.808 Ybottom+1.852
+G01 F2100.0 X32.808 Y2.381; draw !!Xleft+32.808 Ybottom+2.381
+G01 F2100.0 X33.073 Y2.910; draw !!Xleft+33.073 Ybottom+2.910
+G01 F2100.0 X33.337 Y3.175; draw !!Xleft+33.337 Ybottom+3.175
+G01 F2100.0 X33.867 Y3.440; draw !!Xleft+33.867 Ybottom+3.440
+G01 F2100.0 X34.396 Y3.440; draw !!Xleft+34.396 Ybottom+3.440
+G00 F2100.0 Z4.000; pen up !!Zup
+G00 F2400.0 X29.898 Y4.233; move !!Xleft+29.898 Ybottom+4.233
+G00 F2100.0 Z0.000; pen down !!Zwork
+G01 F2100.0 X30.162 Y3.969; draw !!Xleft+30.162 Ybottom+3.969
+G01 F2100.0 X30.692 Y3.704; draw !!Xleft+30.692 Ybottom+3.704
+G01 F2100.0 X31.485 Y3.704; draw !!Xleft+31.485 Ybottom+3.704
+G01 F2100.0 X32.015 Y3.969; draw !!Xleft+32.015 Ybottom+3.969
+G01 F2100.0 X32.279 Y4.233; draw !!Xleft+32.279 Ybottom+4.233
+G01 F2100.0 X32.544 Y4.762; draw !!Xleft+32.544 Ybottom+4.762
+G01 F2100.0 X32.544 Y5.556; draw !!Xleft+32.544 Ybottom+5.556
+G01 F2100.0 X32.279 Y6.085; draw !!Xleft+32.279 Ybottom+6.085
+G01 F2100.0 X32.015 Y6.350; draw !!Xleft+32.015 Ybottom+6.350
+G01 F2100.0 X31.485 Y6.615; draw !!Xleft+31.485 Ybottom+6.615
+G01 F2100.0 X30.162 Y6.615; draw !!Xleft+30.162 Ybottom+6.615
+G01 F2100.0 X29.369 Y6.350; draw !!Xleft+29.369 Ybottom+6.350
+G01 F2100.0 X28.840 Y6.085; draw !!Xleft+28.840 Ybottom+6.085
+G01 F2100.0 X28.310 Y5.556; draw !!Xleft+28.310 Ybottom+5.556
+G01 F2100.0 X27.781 Y4.762; draw !!Xleft+27.781 Ybottom+4.762
+G01 F2100.0 X27.517 Y4.233; draw !!Xleft+27.517 Ybottom+4.233
+G01 F2100.0 X27.252 Y3.440; draw !!Xleft+27.252 Ybottom+3.440
+G01 F2100.0 X26.987 Y2.117; draw !!Xleft+26.987 Ybottom+2.117
+G01 F2100.0 X26.987 Y1.323; draw !!Xleft+26.987 Ybottom+1.323
+G01 F2100.0 X27.252 Y1.058; draw !!Xleft+27.252 Ybottom+1.058
+G01 F2100.0 X27.517 Y1.058; draw !!Xleft+27.517 Ybottom+1.058
+G01 F2100.0 X28.046 Y1.323; draw !!Xleft+28.046 Ybottom+1.323
+G01 F2100.0 X28.575 Y1.852; draw !!Xleft+28.575 Ybottom+1.852
+G01 F2100.0 X29.104 Y2.646; draw !!Xleft+29.104 Ybottom+2.646
+G01 F2100.0 X29.369 Y3.175; draw !!Xleft+29.369 Ybottom+3.175
+G01 F2100.0 X29.633 Y3.969; draw !!Xleft+29.633 Ybottom+3.969
+G01 F2100.0 X29.898 Y5.027; draw !!Xleft+29.898 Ybottom+5.027
+G01 F2100.0 X29.898 Y5.821; draw !!Xleft+29.898 Ybottom+5.821
+G01 F2100.0 X29.633 Y6.085; draw !!Xleft+29.633 Ybottom+6.085
+G00 F2100.0 Z4.000; pen up !!Zup
+G00 F2400.0 X21.960 Y2.381; move !!Xleft+21.960 Ybottom+2.381
+G00 F2100.0 Z0.000; pen down !!Zwork
+G01 F2100.0 X21.431 Y1.587; draw !!Xleft+21.431 Ybottom+1.587
+G01 F2100.0 X21.167 Y1.323; draw !!Xleft+21.167 Ybottom+1.323
+G01 F2100.0 X20.637 Y1.058; draw !!Xleft+20.637 Ybottom+1.058
+G01 F2100.0 X20.373 Y1.058; draw !!Xleft+20.373 Ybottom+1.058
+G01 F2100.0 X20.108 Y1.323; draw !!Xleft+20.108 Ybottom+1.323
+G01 F2100.0 X20.108 Y1.852; draw !!Xleft+20.108 Ybottom+1.852
+G01 F2100.0 X20.373 Y2.646; draw !!Xleft+20.373 Ybottom+2.646
+G01 F2100.0 X20.373 Y3.175; draw !!Xleft+20.373 Ybottom+3.175
+G01 F2100.0 X20.108 Y3.440; draw !!Xleft+20.108 Ybottom+3.440
+G01 F2100.0 X19.579 Y3.440; draw !!Xleft+19.579 Ybottom+3.440
+G01 F2100.0 X19.050 Y3.175; draw !!Xleft+19.050 Ybottom+3.175
+G01 F2100.0 X18.521 Y2.381; draw !!Xleft+18.521 Ybottom+2.381
+G01 F2100.0 X18.256 Y1.852; draw !!Xleft+18.256 Ybottom+1.852
+G00 F2100.0 Z4.000; pen up !!Zup
+G00 F2400.0 X17.992 Y1.058; move !!Xleft+17.992 Ybottom+1.058
+G00 F2100.0 Z0.000; pen down !!Zwork
+G01 F2100.0 X18.256 Y1.852; draw !!Xleft+18.256 Ybottom+1.852
+G01 F2100.0 X18.521 Y2.910; draw !!Xleft+18.521 Ybottom+2.910
+G01 F2100.0 X18.521 Y3.175; draw !!Xleft+18.521 Ybottom+3.175
+G01 F2100.0 X18.256 Y3.440; draw !!Xleft+18.256 Ybottom+3.440
+G01 F2100.0 X17.727 Y3.175; draw !!Xleft+17.727 Ybottom+3.175
+G01 F2100.0 X17.198 Y2.381; draw !!Xleft+17.198 Ybottom+2.381
+G01 F2100.0 X16.669 Y2.117; draw !!Xleft+16.669 Ybottom+2.117
+G01 F2100.0 X16.140 Y2.117; draw !!Xleft+16.140 Ybottom+2.117
+G01 F2100.0 X15.875 Y2.381; draw !!Xleft+15.875 Ybottom+2.381
+G01 F2100.0 X15.610 Y3.440; draw !!Xleft+15.610 Ybottom+3.440
+G01 F2100.0 X15.610 Y2.646; draw !!Xleft+15.610 Ybottom+2.646
+G01 F2100.0 X15.346 Y1.852; draw !!Xleft+15.346 Ybottom+1.852
+G01 F2100.0 X14.817 Y1.323; draw !!Xleft+14.817 Ybottom+1.323
+G01 F2100.0 X14.287 Y1.058; draw !!Xleft+14.287 Ybottom+1.058
+G01 F2100.0 X13.758 Y1.058; draw !!Xleft+13.758 Ybottom+1.058
+G01 F2100.0 X13.494 Y1.323; draw !!Xleft+13.494 Ybottom+1.323
+G01 F2100.0 X13.494 Y1.852; draw !!Xleft+13.494 Ybottom+1.852
+G01 F2100.0 X14.023 Y3.440; draw !!Xleft+14.023 Ybottom+3.440
+G00 F2100.0 Z4.000; pen up !!Zup
+G00 F2400.0 X13.494 Y1.852; move !!Xleft+13.494 Ybottom+1.852
+G00 F2100.0 Z0.000; pen down !!Zwork
+G01 F2100.0 X12.965 Y1.323; draw !!Xleft+12.965 Ybottom+1.323
+G01 F2100.0 X12.435 Y1.058; draw !!Xleft+12.435 Ybottom+1.058
+G01 F2100.0 X11.906 Y1.058; draw !!Xleft+11.906 Ybottom+1.058
+G01 F2100.0 X11.642 Y1.587; draw !!Xleft+11.642 Ybottom+1.587
+G01 F2100.0 X11.642 Y2.117; draw !!Xleft+11.642 Ybottom+2.117
+G01 F2100.0 X11.906 Y2.910; draw !!Xleft+11.906 Ybottom+2.910
+G01 F2100.0 X12.435 Y3.440; draw !!Xleft+12.435 Ybottom+3.440
+G00 F2100.0 Z4.000; pen up !!Zup
+G00 F2400.0 X11.642 Y2.381; move !!Xleft+11.642 Ybottom+2.381
+G00 F2100.0 Z0.000; pen down !!Zwork
+G01 F2100.0 X11.377 Y2.117; draw !!Xleft+11.377 Ybottom+2.117
+G01 F2100.0 X10.848 Y1.852; draw !!Xleft+10.848 Ybottom+1.852
+G01 F2100.0 X10.054 Y1.852; draw !!Xleft+10.054 Ybottom+1.852
+G01 F2100.0 X9.525 Y2.117; draw !!Xleft+9.525 Ybottom+2.117
+G01 F2100.0 X9.260 Y2.646; draw !!Xleft+9.260 Ybottom+2.646
+G01 F2100.0 X9.260 Y3.175; draw !!Xleft+9.260 Ybottom+3.175
+G01 F2100.0 X9.525 Y3.440; draw !!Xleft+9.525 Ybottom+3.440
+G01 F2100.0 X10.054 Y3.175; draw !!Xleft+10.054 Ybottom+3.175
+G01 F2100.0 X10.319 Y2.646; draw !!Xleft+10.319 Ybottom+2.646
+G01 F2100.0 X10.319 Y2.117; draw !!Xleft+10.319 Ybottom+2.117
+G01 F2100.0 X10.054 Y1.587; draw !!Xleft+10.054 Ybottom+1.587
+G01 F2100.0 X9.790 Y1.323; draw !!Xleft+9.790 Ybottom+1.323
+G01 F2100.0 X9.260 Y1.058; draw !!Xleft+9.260 Ybottom+1.058
+G01 F2100.0 X8.731 Y1.058; draw !!Xleft+8.731 Ybottom+1.058
+G01 F2100.0 X8.202 Y1.323; draw !!Xleft+8.202 Ybottom+1.323
+G01 F2100.0 X7.937 Y1.852; draw !!Xleft+7.937 Ybottom+1.852
+G01 F2100.0 X7.937 Y2.381; draw !!Xleft+7.937 Ybottom+2.381
+G01 F2100.0 X8.202 Y2.910; draw !!Xleft+8.202 Ybottom+2.910
+G01 F2100.0 X8.467 Y3.175; draw !!Xleft+8.467 Ybottom+3.175
+G01 F2100.0 X8.996 Y3.440; draw !!Xleft+8.996 Ybottom+3.440
+G01 F2100.0 X9.525 Y3.440; draw !!Xleft+9.525 Ybottom+3.440
+G00 F2100.0 Z4.000; pen up !!Zup
+G00 F2400.0 X7.937 Y2.381; move !!Xleft+7.937 Ybottom+2.381
+G00 F2100.0 Z0.000; pen down !!Zwork
+G01 F2100.0 X7.408 Y1.587; draw !!Xleft+7.408 Ybottom+1.587
+G01 F2100.0 X7.144 Y1.323; draw !!Xleft+7.144 Ybottom+1.323
+G01 F2100.0 X6.615 Y1.058; draw !!Xleft+6.615 Ybottom+1.058
+G01 F2100.0 X6.350 Y1.058; draw !!Xleft+6.350 Ybottom+1.058
+G01 F2100.0 X6.085 Y1.323; draw !!Xleft+6.085 Ybottom+1.323
+G01 F2100.0 X6.085 Y1.587; draw !!Xleft+6.085 Ybottom+1.587
+G01 F2100.0 X6.350 Y2.381; draw !!Xleft+6.350 Ybottom+2.381
+G01 F2100.0 X6.350 Y2.910; draw !!Xleft+6.350 Ybottom+2.910
+G01 F2100.0 X6.085 Y3.175; draw !!Xleft+6.085 Ybottom+3.175
+G01 F2100.0 X5.292 Y3.175; draw !!Xleft+5.292 Ybottom+3.175
+G01 F2100.0 X5.292 Y3.704; draw !!Xleft+5.292 Ybottom+3.704
+G01 F2100.0 X5.027 Y3.175; draw !!Xleft+5.027 Ybottom+3.175
+G01 F2100.0 X4.498 Y2.381; draw !!Xleft+4.498 Ybottom+2.381
+G00 F2100.0 Z4.000; pen up !!Zup
+G00 F2400.0 X3.175 Y2.381; move !!Xleft+3.175 Ybottom+2.381
+G00 F2100.0 Z0.000; pen down !!Zwork
+G01 F2100.0 X2.910 Y1.852; draw !!Xleft+2.910 Ybottom+1.852
+G01 F2100.0 X2.381 Y1.323; draw !!Xleft+2.381 Ybottom+1.323
+G01 F2100.0 X1.587 Y1.058; draw !!Xleft+1.587 Ybottom+1.058
+G01 F2100.0 X1.058 Y1.058; draw !!Xleft+1.058 Ybottom+1.058
+G01 F2100.0 X0.529 Y1.323; draw !!Xleft+0.529 Ybottom+1.323
+G01 F2100.0 X0.265 Y1.587; draw !!Xleft+0.265 Ybottom+1.587
+G01 F2100.0 X0.000 Y2.381; draw !!Xleft+0.000 Ybottom+2.381
+G01 F2100.0 X0.000 Y3.440; draw !!Xleft+0.000 Ybottom+3.440
+G01 F2100.0 X0.265 Y4.498; draw !!Xleft+0.265 Ybottom+4.498
+G01 F2100.0 X0.529 Y5.027; draw !!Xleft+0.529 Ybottom+5.027
+G01 F2100.0 X1.058 Y5.821; draw !!Xleft+1.058 Ybottom+5.821
+G01 F2100.0 X1.587 Y6.350; draw !!Xleft+1.587 Ybottom+6.350
+G01 F2100.0 X2.381 Y6.615; draw !!Xleft+2.381 Ybottom+6.615
+G01 F2100.0 X3.175 Y6.615; draw !!Xleft+3.175 Ybottom+6.615
+G01 F2100.0 X3.704 Y6.350; draw !!Xleft+3.704 Ybottom+6.350
+G01 F2100.0 X3.969 Y5.821; draw !!Xleft+3.969 Ybottom+5.821
+G01 F2100.0 X3.969 Y5.292; draw !!Xleft+3.969 Ybottom+5.292
+G01 F2100.0 X3.704 Y4.762; draw !!Xleft+3.704 Ybottom+4.762
+G01 F2100.0 X3.175 Y4.498; draw !!Xleft+3.175 Ybottom+4.498
+G01 F2100.0 X2.646 Y4.498; draw !!Xleft+2.646 Ybottom+4.498
+G01 F2100.0 X2.381 Y4.762; draw !!Xleft+2.381 Ybottom+4.762
+G01 F2100.0 X2.381 Y5.027; draw !!Xleft+2.381 Ybottom+5.027
+G00 F2100.0 Z4.000; pen park !!Zpark
