@@ -8,6 +8,8 @@ G90; absolute
 G28 X; home
 G28 Y; home
 G28 Z; home
+G29; autolevel - needs to be over +20 x
+G90; absolute
 G00 F2100.0 Z4.000; pen park !!Zpark
 G00 F2400.0 Y0.000; !!Ybottom
 G00 F2400.0 X0.000; !!Xleft
